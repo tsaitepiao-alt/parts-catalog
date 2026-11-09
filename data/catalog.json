@@ -1,7 +1,91 @@
 {
- "generated": "2026-11-09 13:10",
- "count": 59,
+ "generated": "2026-11-09 13:21",
+ "count": 80,
  "parts": [
+  {
+   "code": "C128021",
+   "mpn": "G5V-2-H1 DC12",
+   "brand": "OMRON",
+   "package": "DIP,20.5x10.1mm",
+   "desc": "12V 1A Two sets of changeover: 2C (DPDT) DIP,20.5x10.1mm Signal Relays, Up to 2 Amps RoHS",
+   "category": "Relays",
+   "subcategory": "Signal Relays, Up to 2 Amps",
+   "stock": 11130,
+   "price": {
+    "q1_usd": 1.7531,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 1.7531
+     },
+     {
+      "q": 10,
+      "usd": 1.5046
+     },
+     {
+      "q": 25,
+      "usd": 1.307
+     },
+     {
+      "q": 100,
+      "usd": 1.1523
+     }
+    ]
+   },
+   "params": {
+    "Coil Type": "-",
+    "Coil Resistance": "960Ω",
+    "Coil Voltage": "12V",
+    "Release Time": "3ms",
+    "Operate Time": "7ms",
+    "Number of Pins": "-",
+    "Operating Temperature": "-25℃~+70℃",
+    "Width": "10.1mm",
+    "Contact Resistance": "100mΩ",
+    "Length": "20.5mm",
+    "Height": "11.5mm",
+    "Contact Rating": "600mA@125VAC;600mA@110VDC;1A@24VDC",
+    "Switching Voltage(Max)": "125V@AC;125V@DC",
+    "Switching Current(Max)": "1A",
+    "Contact Form": "Two sets of changeover: 2C (DPDT)",
+    "Coil Rated Power": "150mW",
+    "Contact Material": "Silver + Gold Plated"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/797d1a488071144ea2bca2eb0f89dd1a.pdf?productCode=C128021",
+   "image": "assets/img/C128021.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C1521753",
+   "mpn": "XC7A50T-2CPG236I",
+   "brand": "AMD/XILINX",
+   "package": "CSBGA-236",
+   "desc": "52160 CSBGA-236 FPGAs (Field Programmable Gate Array) RoHS",
+   "category": "Embedded Processors & Controllers",
+   "subcategory": "FPGAs (Field Programmable Gate Array)",
+   "stock": 1441,
+   "price": {
+    "q1_usd": 101.0052,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 101.0052
+     },
+     {
+      "q": 30,
+      "usd": 95.5991
+     }
+    ]
+   },
+   "params": {
+    "Number of Logic Elements/Blocks": "52160"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9a1a25a038fbd05e37c20b75ac1310f8.pdf?productCode=C1521753",
+   "image": null,
+   "alternates": [],
+   "lifecycle": "normal"
+  },
   {
    "code": "C1558409",
    "mpn": "STM32WB55REV6",
@@ -43,6 +127,68 @@
    "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/75a43f5155ef0eee3a8545af087cd18c.pdf?productCode=C1558409",
    "image": "assets/img/C1558409.jpg",
    "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C159801",
+   "mpn": "CL10A226MQ8NRNE",
+   "brand": "Samsung Electro-Mechanics",
+   "package": "0603",
+   "desc": "22uF ±20% 6.3V Ceramic Capacitor X5R 0603",
+   "category": "Capacitors",
+   "subcategory": "Ceramic Capacitors",
+   "stock": 3000000,
+   "price": {
+    "q1_usd": 0.0335,
+    "ladder": [
+     {
+      "q": 20,
+      "usd": 0.0335
+     },
+     {
+      "q": 200,
+      "usd": 0.0251
+     },
+     {
+      "q": 600,
+      "usd": 0.0213
+     },
+     {
+      "q": 3000,
+      "usd": 0.0145
+     }
+    ]
+   },
+   "params": {
+    "Capacitance": "22uF",
+    "Temperature Coefficient": "X5R",
+    "Tolerance": "±20%",
+    "Voltage Rating": "6.3V"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C159801",
+   "image": "assets/img/C159801.jpg",
+   "alternates": [
+    {
+     "code": "C86295",
+     "mpn": "CL10A226MP8NUNE"
+    },
+    {
+     "code": "C109448",
+     "mpn": "CC0603MRX5R5BB226"
+    },
+    {
+     "code": "C126628",
+     "mpn": "GRT188R60J226ME13D"
+    },
+    {
+     "code": "C2167532",
+     "mpn": "C1608X5R0J226M080AC"
+    },
+    {
+     "code": "C22402131",
+     "mpn": "C0603C226M9PACTU"
+    }
+   ],
    "lifecycle": "normal"
   },
   {
@@ -91,6 +237,116 @@
    },
    "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/0323ce9b80eecdf20cc03f4f9df0a989.pdf?productCode=C167118",
    "image": "assets/img/C167118.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C17444569",
+   "mpn": "MLX90614ESF-DCI-000-TU",
+   "brand": "Melexis",
+   "package": "TO-39",
+   "desc": "-40℃~+85℃ SMBus ±0.2℃ TO-39 Analog and Digital Output RoHS",
+   "category": "Sensors",
+   "subcategory": "Analog and Digital Output",
+   "stock": 575,
+   "price": {
+    "q1_usd": 24.0958,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 24.0958
+     },
+     {
+      "q": 10,
+      "usd": 23.0519
+     },
+     {
+      "q": 47,
+      "usd": 21.2416
+     },
+     {
+      "q": 94,
+      "usd": 19.6625
+     }
+    ]
+   },
+   "params": {
+    "Detection Temperature Range": "-40℃~+85℃",
+    "Voltage - Supply": "2.6V~3.6V",
+    "Interface": "SMBus",
+    "Tolerance": "±0.2℃",
+    "Features": "Factory temperature calibration;Low-power standby;On-chip digital filtering/averaging;On-chip non-volatile parameter storage;Configurable temperature output"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/81c5c8848dbb789f42234019cd3cd3d6.pdf?productCode=C17444569",
+   "image": "assets/img/C17444569.jpg",
+   "alternates": [
+    {
+     "code": "C49253795",
+     "mpn": "GD60914MCE"
+    },
+    {
+     "code": "C7501763",
+     "mpn": "MLX90614ESF-BCC-000-TU"
+    },
+    {
+     "code": "C17266420",
+     "mpn": "MLX90614ESF-DCA-000-TU"
+    },
+    {
+     "code": "C17210933",
+     "mpn": "MLX90614ESF-ABA-000-SP"
+    },
+    {
+     "code": "C17293916",
+     "mpn": "MLX90614ESF-BCA-000-TU"
+    }
+   ],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C181692",
+   "mpn": "IP5306",
+   "brand": "INJOINIC",
+   "package": "ESOP-8",
+   "desc": "I2C Lithium Battery 2.1A ESOP-8 Battery Management RoHS",
+   "category": "Power Management (PMIC)",
+   "subcategory": "Battery Management",
+   "stock": 23475,
+   "price": {
+    "q1_usd": 0.3481,
+    "ladder": [
+     {
+      "q": 5,
+      "usd": 0.3481
+     },
+     {
+      "q": 50,
+      "usd": 0.2823
+     },
+     {
+      "q": 150,
+      "usd": 0.2502
+     },
+     {
+      "q": 500,
+      "usd": 0.2216
+     }
+    ]
+   },
+   "params": {
+    "Operating Temperature": "0℃~+70℃",
+    "Interface": "I2C",
+    "Quiescent Current": "100uA",
+    "0V Battery Charge": "Not supported",
+    "Type of Battery": "Lithium Battery",
+    "Operating Voltage": "4.65V~5.5V",
+    "Features": "Constant current charging;Trickle charging;Automatic recharge;Charge termination;Overcharge protection;Over-discharge protection;Overcurrent Protection;Short-Circuit  Protection;Overvoltage Protection;Under-voltage lockout",
+    "The Chip Type": "Charging IC;Protection IC",
+    "Balance Current": "-",
+    "Charge Current - Max": "2.1A"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/309666add984eaea02a8f06d99102496.pdf?productCode=C181692",
+   "image": "assets/img/C181692.jpg",
    "alternates": [],
    "lifecycle": "normal"
   },
@@ -683,6 +939,144 @@
    "lifecycle": "normal"
   },
   {
+   "code": "C2831776",
+   "mpn": "01EC1188",
+   "brand": "KNSCHA",
+   "package": "Through Hole,D8xL12mm",
+   "desc": "100uF 50V Aluminum Electrolytic Capacitors Through Hole,D8xL12mm 8000hrs@105℃",
+   "category": "Capacitors",
+   "subcategory": "Aluminum Electrolytic Capacitors",
+   "stock": 1860,
+   "price": {
+    "q1_usd": 0.0452,
+    "ladder": [
+     {
+      "q": 20,
+      "usd": 0.0452
+     },
+     {
+      "q": 200,
+      "usd": 0.0366
+     },
+     {
+      "q": 500,
+      "usd": 0.0261
+     },
+     {
+      "q": 2000,
+      "usd": 0.0232
+     }
+    ]
+   },
+   "params": {
+    "Tolerance": "±20%",
+    "Voltage Rating": "50V",
+    "Lifetime": "5000hrs@105℃",
+    "Capacitance": "100uF",
+    "Ripple Current": "555mA@100kHz",
+    "Pin Spacing": "3.5mm",
+    "Polarity type": "Polarized",
+    "Operating Temperature": "-40℃~+105℃",
+    "Equivalent Series Resistance(ESR)": "170mΩ@100kHz",
+    "Height - Seated (Max)": "12mm",
+    "Diameter": "8mm"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/3c8e9e157af1183c8257befa452b533e.pdf?productCode=C2831776",
+   "image": "assets/img/C2831776.jpg",
+   "alternates": [
+    {
+     "code": "C46550803",
+     "mpn": "DHG050M107G120S1AA"
+    },
+    {
+     "code": "C46550761",
+     "mpn": "DHG063M107G122S1AA"
+    },
+    {
+     "code": "C46550804",
+     "mpn": "DHG063M107G120S1AA"
+    },
+    {
+     "code": "C2831769",
+     "mpn": "03EC0315"
+    },
+    {
+     "code": "C46550782",
+     "mpn": "DHC050M107G124S1AA"
+    }
+   ],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C2833295",
+   "mpn": "01EC1119",
+   "brand": "KNSCHA",
+   "package": "Through Hole,D5xL11mm",
+   "desc": "47uF 35V Aluminum Electrolytic Capacitors Through Hole,D5xL11mm 7000hrs@105℃",
+   "category": "Capacitors",
+   "subcategory": "Aluminum Electrolytic Capacitors",
+   "stock": 19800,
+   "price": {
+    "q1_usd": 0.0168,
+    "ladder": [
+     {
+      "q": 50,
+      "usd": 0.0168
+     },
+     {
+      "q": 500,
+      "usd": 0.0136
+     },
+     {
+      "q": 2000,
+      "usd": 0.0109
+     },
+     {
+      "q": 5000,
+      "usd": 0.0098
+     }
+    ]
+   },
+   "params": {
+    "Tolerance": "±20%",
+    "Voltage Rating": "35V",
+    "Lifetime": "2000hrs@105℃",
+    "Capacitance": "47uF",
+    "Ripple Current": "135mA@100kHz",
+    "Pin Spacing": "2mm",
+    "Polarity type": "Polarized",
+    "Operating Temperature": "-40℃~+105℃",
+    "Equivalent Series Resistance(ESR)": "100mΩ@100kHz",
+    "Height - Seated (Max)": "11mm",
+    "Diameter": "5mm"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/a0aedc9932cd841794603f06f07031ac.pdf?productCode=C2833295",
+   "image": "assets/img/C2833295.jpg",
+   "alternates": [
+    {
+     "code": "C49309232",
+     "mpn": "DHG035M476C110S1AA"
+    },
+    {
+     "code": "C2831773",
+     "mpn": "03EC0571"
+    },
+    {
+     "code": "C46550695",
+     "mpn": "DHC050M476E114S1AA"
+    },
+    {
+     "code": "C46550716",
+     "mpn": "DHG035M476E110S1AA"
+    },
+    {
+     "code": "C2760864",
+     "mpn": "03EC0340"
+    }
+   ],
+   "lifecycle": "normal"
+  },
+  {
    "code": "C2837370",
    "mpn": "IR4302MTRPBF",
    "brand": "Infineon",
@@ -876,6 +1270,60 @@
    },
    "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/863259f4f673278b265c5ead0309e99e.pdf?productCode=C2890611",
    "image": "assets/img/C2890611.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C28975",
+   "mpn": "HF49FD/005-1H11",
+   "brand": "HONGFA",
+   "package": "SIP,20x5mm",
+   "desc": "Power Relay 1 Form A: 1A (SPST-NO) 5V Coil SIP,5x20mm",
+   "category": "Relays",
+   "subcategory": "Power Relays, Over 2 Amps",
+   "stock": 3052,
+   "price": {
+    "q1_usd": 1.7975,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 1.7975
+     },
+     {
+      "q": 10,
+      "usd": 1.5166
+     },
+     {
+      "q": 30,
+      "usd": 1.3962
+     },
+     {
+      "q": 100,
+      "usd": 1.246
+     }
+    ]
+   },
+   "params": {
+    "Coil Voltage": "5V",
+    "Switching Voltage(Max)": "250V@AC;30V@DC",
+    "Coil Resistance": "208Ω",
+    "Release Time": "5ms",
+    "Operate Time": "10ms",
+    "Length": "20mm",
+    "Height": "12.5mm",
+    "Contact Resistance": "100mΩ",
+    "Number of Pins": "4",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Width": "5mm",
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Current(Max)": "5A",
+    "Coil Rated Power": "120mW",
+    "Contact Rating": "5A@250VAC;5A@30VDC",
+    "Contact Material": "AgNi",
+    "Contact Form": "1 Set Normally Open: 1A (SPST NO)"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b466129e162e6d0760a7a0d66d0186bf.pdf?productCode=C28975",
+   "image": "assets/img/C28975.jpg",
    "alternates": [],
    "lifecycle": "normal"
   },
@@ -1104,6 +1552,179 @@
    "lifecycle": "normal"
   },
   {
+   "code": "C307532",
+   "mpn": "CL21A226MQQNNNG",
+   "brand": "Samsung Electro-Mechanics",
+   "package": "0805",
+   "desc": "22uF ±20% 6.3V Ceramic Capacitor X5R 0805",
+   "category": "Capacitors",
+   "subcategory": "Ceramic Capacitors",
+   "stock": 57010,
+   "price": {
+    "q1_usd": 0.0629,
+    "ladder": [
+     {
+      "q": 10,
+      "usd": 0.0629
+     },
+     {
+      "q": 100,
+      "usd": 0.05
+     },
+     {
+      "q": 300,
+      "usd": 0.0433
+     },
+     {
+      "q": 3000,
+      "usd": 0.0363
+     }
+    ]
+   },
+   "params": {
+    "Capacitance": "22uF",
+    "Temperature Coefficient": "X5R",
+    "Tolerance": "±20%",
+    "Voltage Rating": "6.3V"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C307532",
+   "image": "assets/img/C307532.jpg",
+   "alternates": [
+    {
+     "code": "C105484",
+     "mpn": "0805X226M6R3NT"
+    },
+    {
+     "code": "C19841964",
+     "mpn": "C0805B226M007T"
+    },
+    {
+     "code": "C239085",
+     "mpn": "JMK212ABJ226MG-T"
+    },
+    {
+     "code": "C2937100",
+     "mpn": "FS21B226M6R3EIG"
+    },
+    {
+     "code": "C307530",
+     "mpn": "CL21A226MQCLRNC"
+    }
+   ],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C3178303",
+   "mpn": "VL53L5CXV0GC/1",
+   "brand": "ST",
+   "package": "SMD,6.4x3mm",
+   "desc": "4m I2C SMD,6.4x3mm Distance Measuring RoHS",
+   "category": "Sensors",
+   "subcategory": "Distance Measuring",
+   "stock": 3443,
+   "price": {
+    "q1_usd": 7.2579,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 7.2579
+     },
+     {
+      "q": 10,
+      "usd": 6.2463
+     },
+     {
+      "q": 30,
+      "usd": 5.3651
+     },
+     {
+      "q": 100,
+      "usd": 4.8485
+     }
+    ]
+   },
+   "params": {
+    "Current - Supply": "-",
+    "Module": "Yes",
+    "Rotation Angle": "-",
+    "Operating Temperature": "-30℃~+85℃",
+    "Linear Range": "4m",
+    "Interface": "I2C",
+    "Voltage - Supply": "2.8V~3.3V",
+    "Length": "6.4mm",
+    "Width": "3mm",
+    "Type": "-",
+    "Height": "1.5mm",
+    "Features": "-"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/eabdf0c84b3cefeb8d7ceaa028c3fe81.pdf?productCode=C3178303",
+   "image": "assets/img/C3178303.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C318573",
+   "mpn": "CL05A105MQ5NNNC",
+   "brand": "Samsung Electro-Mechanics",
+   "package": "0402",
+   "desc": "1uF ±20% 6.3V Ceramic Capacitor X5R 0402",
+   "category": "Capacitors",
+   "subcategory": "Ceramic Capacitors",
+   "stock": 204400,
+   "price": {
+    "q1_usd": 0.0078,
+    "ladder": [
+     {
+      "q": 100,
+      "usd": 0.0078
+     },
+     {
+      "q": 1000,
+      "usd": 0.0065
+     },
+     {
+      "q": 3000,
+      "usd": 0.0057
+     },
+     {
+      "q": 10000,
+      "usd": 0.0051
+     }
+    ]
+   },
+   "params": {
+    "Capacitance": "1uF",
+    "Temperature Coefficient": "X5R",
+    "Tolerance": "±20%",
+    "Voltage Rating": "6.3V"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/18f74fbefc0ae9639e6115a01c368b42.pdf?productCode=C318573",
+   "image": "assets/img/C318573.jpg",
+   "alternates": [
+    {
+     "code": "C106253",
+     "mpn": "CC0402KRX5R5BB105"
+    },
+    {
+     "code": "C2649511",
+     "mpn": "C0402C105K9PACTU"
+    },
+    {
+     "code": "C106254",
+     "mpn": "CC0402KRX5R6BB105"
+    },
+    {
+     "code": "C2182404",
+     "mpn": "C0402C105K8PACTU"
+    },
+    {
+     "code": "C20416436",
+     "mpn": "TCC0402X5R105M6R3ATN"
+    }
+   ],
+   "lifecycle": "normal"
+  },
+  {
    "code": "C3198089",
    "mpn": "LM61480RPHR",
    "brand": "TI",
@@ -1235,6 +1856,164 @@
    "lifecycle": "normal"
   },
   {
+   "code": "C3659348",
+   "mpn": "MICS-5524",
+   "brand": "Amphenol",
+   "package": "SMD-10P,7x5mm",
+   "desc": "1ppm~1000ppm SMD-10P,7x5mm Gas Sensors",
+   "category": "Sensors",
+   "subcategory": "Gas Sensors",
+   "stock": 825,
+   "price": {
+    "q1_usd": 6.4795,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 6.4795
+     },
+     {
+      "q": 10,
+      "usd": 5.6435
+     },
+     {
+      "q": 30,
+      "usd": 5.1344
+     },
+     {
+      "q": 100,
+      "usd": 4.7073
+     }
+    ]
+   },
+   "params": {
+    "Measurement Range": "1ppm~1000ppm",
+    "Width": "5mm",
+    "Tolerance": "-",
+    "Diameter (φD)": "-",
+    "Length": "7mm",
+    "Type": "Carbon Monoxide;Hydrogen sulfide",
+    "Interface": "-",
+    "Working current": "32mA",
+    "Pitch": "-",
+    "Height": "1.55mm",
+    "working voltage": "4.9V~5.1V",
+    "working temperature": "-30℃~+85℃",
+    "Features": "Multi-gas detection capability"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9c4ba30a0db4c77edc7f1d4e113d635c.pdf?productCode=C3659348",
+   "image": "assets/img/C3659348.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C3663116",
+   "mpn": "MLX90614ESF-DCC-000-TU",
+   "brand": "Melexis",
+   "package": "TO-39-4",
+   "desc": "-40℃~+85℃ SMBus ±0.2℃ TO-39-4 Analog and Digital Output RoHS",
+   "category": "Sensors",
+   "subcategory": "Analog and Digital Output",
+   "stock": 206,
+   "price": {
+    "q1_usd": 8.6581,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 8.6581
+     },
+     {
+      "q": 10,
+      "usd": 7.4081
+     },
+     {
+      "q": 30,
+      "usd": 6.6469
+     },
+     {
+      "q": 100,
+      "usd": 6.0088
+     }
+    ]
+   },
+   "params": {
+    "Detection Temperature Range": "-40℃~+85℃",
+    "Voltage - Supply": "2.6V~3.6V",
+    "Interface": "SMBus",
+    "Tolerance": "±0.2℃",
+    "Features": "Factory temperature calibration;Low-power standby;On-chip digital filtering/averaging;On-chip non-volatile parameter storage;Configurable temperature output"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/81c5c8848dbb789f42234019cd3cd3d6.pdf?productCode=C3663116",
+   "image": "assets/img/C3663116.jpg",
+   "alternates": [
+    {
+     "code": "C490604",
+     "mpn": "MLX90614ESF-BAA-000-TU"
+    },
+    {
+     "code": "C93959",
+     "mpn": "MLX90615SSG-DAA-000-TU"
+    },
+    {
+     "code": "C488402",
+     "mpn": "MLX90614ESF-DAA-000-SP"
+    },
+    {
+     "code": "C3663467",
+     "mpn": "MLX90614ESF-AAA-000-TU"
+    },
+    {
+     "code": "C7494362",
+     "mpn": "MLX90614ESF-ACC-000-TU"
+    }
+   ],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C370986",
+   "mpn": "EC11E183440C",
+   "brand": "ALPSALPINE",
+   "package": "Through Hole",
+   "desc": "10mA Through Hole DIP Switches RoHS",
+   "category": "Switches",
+   "subcategory": "DIP Switches",
+   "stock": 1669,
+   "price": {
+    "q1_usd": 2.5584,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 2.5584
+     },
+     {
+      "q": 10,
+      "usd": 2.1901
+     },
+     {
+      "q": 30,
+      "usd": 1.9583
+     },
+     {
+      "q": 120,
+      "usd": 1.5817
+     }
+    ]
+   },
+   "params": {
+    "Rated Voltage (Max)": "5V",
+    "Output Form": "Two-phase output",
+    "Current Rating": "10mA",
+    "Number of Detents / Pulses (Incremental)": "30/15",
+    "Encoder Type": "Incremental",
+    "Mounting Type": "Straight",
+    "Operating Temperature": "-40℃~+85℃",
+    "Whether to Press Down": "Support"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/7c06ae7a41cdc84c9f90167a296d4855.pdf?productCode=C370986",
+   "image": "assets/img/C370986.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
    "code": "C387737",
    "mpn": "LPA2010MSF",
    "brand": "LOWPOWER",
@@ -1280,6 +2059,60 @@
    },
    "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9db1a33bfb8d0f55a6a80fbdfe952de7.pdf?productCode=C387737",
    "image": "assets/img/C387737.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C39593",
+   "mpn": "G5V-2-DC24",
+   "brand": "OMRON",
+   "package": "DIP,20.5x10.1mm",
+   "desc": "24V 2A Two sets of changeover: 2C (DPDT) DIP,20.5x10.1mm Signal Relays, Up to 2 Amps RoHS",
+   "category": "Relays",
+   "subcategory": "Signal Relays, Up to 2 Amps",
+   "stock": 12593,
+   "price": {
+    "q1_usd": 1.3942,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 1.3942
+     },
+     {
+      "q": 10,
+      "usd": 1.1728
+     },
+     {
+      "q": 30,
+      "usd": 1.0341
+     },
+     {
+      "q": 100,
+      "usd": 0.8953
+     }
+    ]
+   },
+   "params": {
+    "Coil Type": "-",
+    "Coil Resistance": "1.152kΩ",
+    "Coil Voltage": "24V",
+    "Release Time": "3ms",
+    "Operate Time": "7ms",
+    "Number of Pins": "-",
+    "Operating Temperature": "-25℃~+65℃",
+    "Width": "9.9mm",
+    "Contact Resistance": "50mΩ",
+    "Length": "20.3mm",
+    "Height": "11.4mm",
+    "Contact Rating": "500mA@125VAC;2A@30VDC",
+    "Switching Voltage(Max)": "125V@AC;125V@DC",
+    "Switching Current(Max)": "2A",
+    "Contact Form": "Two sets of changeover: 2C (DPDT)",
+    "Coil Rated Power": "500mW",
+    "Contact Material": "Silver + Gold Plated"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/010ea91c430151f24ab12e34d4f35034.pdf?productCode=C39593",
+   "image": "assets/img/C39593.jpg",
    "alternates": [],
    "lifecycle": "normal"
   },
@@ -1576,6 +2409,52 @@
    "lifecycle": "normal"
   },
   {
+   "code": "C473012",
+   "mpn": "ESP32-WROOM-32D-N4",
+   "brand": "ESPRESSIF",
+   "package": "SMD,25.5x18mm",
+   "desc": "2.4GHz ESP32-DOWD On-board PCB Antenna -98dBm SMD,25.5x18mm RF Transceiver Modules and Modems RoHS",
+   "category": "IoT/Communication Modules",
+   "subcategory": "RF Transceiver Modules and Modems",
+   "stock": 21184,
+   "price": {
+    "q1_usd": 3.9727,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 3.9727
+     },
+     {
+      "q": 10,
+      "usd": 3.4716
+     },
+     {
+      "q": 30,
+      "usd": 3.2153
+     },
+     {
+      "q": 100,
+      "usd": 2.8729
+     }
+    ]
+   },
+   "params": {
+    "Frequency Range": "2.4GHz",
+    "Voltage - Supply": "2.7V~3.6V",
+    "Utilized IC / Part": "ESP32-DOWD",
+    "Output Power": "20.5dBm",
+    "Antenna Type": "On-board PCB Antenna",
+    "Sensitivity": "-98dBm",
+    "Wireless Standard": "Bluetooth4.2",
+    "Interface": "UART;SPI;I2C;GPIO",
+    "Operating Temperature": "-40℃~+85℃"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b5aa77912f414ccb9a53d803181beb97.pdf?productCode=C473012",
+   "image": "assets/img/C473012.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
    "code": "C477922",
    "mpn": "HDC2010YPAR",
    "brand": "TI",
@@ -1671,6 +2550,73 @@
    "lifecycle": "normal"
   },
   {
+   "code": "C490604",
+   "mpn": "MLX90614ESF-BAA-000-TU",
+   "brand": "Melexis",
+   "package": "TO-39-4",
+   "desc": "-40℃~+85℃ SMBus ±0.5℃ TO-39-4 Analog and Digital Output RoHS",
+   "category": "Sensors",
+   "subcategory": "Analog and Digital Output",
+   "stock": 429,
+   "price": {
+    "q1_usd": 6.6946,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 6.6946
+     },
+     {
+      "q": 10,
+      "usd": 5.7382
+     },
+     {
+      "q": 30,
+      "usd": 5.1568
+     },
+     {
+      "q": 100,
+      "usd": 4.6679
+     }
+    ]
+   },
+   "params": {
+    "Operating Temperature": "-",
+    "Detection Temperature Range": "-40℃~+85℃",
+    "Voltage - Supply": "2.6V~3.6V",
+    "Interface": "SMBus",
+    "Tolerance": "±0.5℃",
+    "Standby Current": "6uA",
+    "Temperature Conversion Time": "-",
+    "Features": "Factory temperature calibration;Temperature threshold monitoring;Low-power standby;On-chip digital filtering/averaging;Configurable temperature output;On-chip non-volatile parameter storage",
+    "Temperature Resolution": "10bit"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/230960c0dd0aa5d3d5e39a4a3476cad7.pdf?productCode=C490604",
+   "image": "assets/img/C490604.jpg",
+   "alternates": [
+    {
+     "code": "C49253793",
+     "mpn": "GD60914MAE"
+    },
+    {
+     "code": "C93959",
+     "mpn": "MLX90615SSG-DAA-000-TU"
+    },
+    {
+     "code": "C3663116",
+     "mpn": "MLX90614ESF-DCC-000-TU"
+    },
+    {
+     "code": "C488402",
+     "mpn": "MLX90614ESF-DAA-000-SP"
+    },
+    {
+     "code": "C3663467",
+     "mpn": "MLX90614ESF-AAA-000-TU"
+    }
+   ],
+   "lifecycle": "normal"
+  },
+  {
    "code": "C49208507",
    "mpn": "MSTPS563201DDCR",
    "brand": "MSKSEMI",
@@ -1722,6 +2668,47 @@
      "mpn": "MSTPS563200DDCR"
     }
    ],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C50396529",
+   "mpn": "U3A",
+   "brand": "YTL",
+   "package": "-",
+   "desc": "2.06 CO5300 chip LCD, OLED, Graphic",
+   "category": "Displays",
+   "subcategory": "LCD, OLED, Graphic",
+   "stock": 3,
+   "price": {
+    "q1_usd": 14.9302,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 14.9302
+     },
+     {
+      "q": 10,
+      "usd": 14.2145
+     },
+     {
+      "q": 25,
+      "usd": 12.9759
+     },
+     {
+      "q": 100,
+      "usd": 11.8942
+     }
+    ]
+   },
+   "params": {
+    "Display Range": "33.09x40.51mm",
+    "Operating Temperature": "-20℃~+70℃",
+    "Size": "2.06",
+    "Controller Type": "CO5300 chip"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/7a9afd9d60b350c03d040c6365945911.pdf?productCode=C50396529",
+   "image": "assets/img/C50396529.jpg",
+   "alternates": [],
    "lifecycle": "normal"
   },
   {
@@ -2328,6 +3315,38 @@
    "lifecycle": "normal"
   },
   {
+   "code": "C569043",
+   "mpn": "XC7Z020-2CLG400I",
+   "brand": "AMD/XILINX",
+   "package": "CSPBGA-400",
+   "desc": "CSPBGA-400 FPGAs (Field Programmable Gate Array) RoHS",
+   "category": "Embedded Processors & Controllers",
+   "subcategory": "FPGAs (Field Programmable Gate Array)",
+   "stock": 886,
+   "price": {
+    "q1_usd": 116.5707,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 116.5707
+     },
+     {
+      "q": 5,
+      "usd": 103.5632
+     },
+     {
+      "q": 30,
+      "usd": 100.9452
+     }
+    ]
+   },
+   "params": {},
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/6072a4b81ad38cef85cee2e9df237dad.pdf?productCode=C569043",
+   "image": "assets/img/C569043.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
    "code": "C6344854",
    "mpn": "NORA-W106-00B",
    "brand": "U-BLOX",
@@ -2495,6 +3514,73 @@
     {
      "code": "C2862577",
      "mpn": "TPS62133AQRGTRQ1"
+    }
+   ],
+   "lifecycle": "normal"
+  },
+  {
+   "code": "C7501763",
+   "mpn": "MLX90614ESF-BCC-000-TU",
+   "brand": "Melexis",
+   "package": "TO-39",
+   "desc": "-40℃~+85℃ SMBus ±0.5℃ TO-39 Analog and Digital Output RoHS",
+   "category": "Sensors",
+   "subcategory": "Analog and Digital Output",
+   "stock": 281,
+   "price": {
+    "q1_usd": 8.6255,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 8.6255
+     },
+     {
+      "q": 10,
+      "usd": 7.3817
+     },
+     {
+      "q": 47,
+      "usd": 6.6236
+     },
+     {
+      "q": 94,
+      "usd": 5.9876
+     }
+    ]
+   },
+   "params": {
+    "Operating Temperature": "-",
+    "Detection Temperature Range": "-40℃~+85℃",
+    "Voltage - Supply": "2.6V~3.6V",
+    "Interface": "SMBus",
+    "Tolerance": "±0.5℃",
+    "Standby Current": "6uA",
+    "Temperature Conversion Time": "-",
+    "Features": "Factory temperature calibration;Temperature threshold monitoring;Low-power standby;On-chip digital filtering/averaging;Configurable temperature output;On-chip non-volatile parameter storage",
+    "Temperature Resolution": "10bit"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/74d6cc19d8df99e64b951186f96f8aba.pdf?productCode=C7501763",
+   "image": "assets/img/C7501763.jpg",
+   "alternates": [
+    {
+     "code": "C49253794",
+     "mpn": "GD60914MBC"
+    },
+    {
+     "code": "C17444569",
+     "mpn": "MLX90614ESF-DCI-000-TU"
+    },
+    {
+     "code": "C17210933",
+     "mpn": "MLX90614ESF-ABA-000-SP"
+    },
+    {
+     "code": "C17293916",
+     "mpn": "MLX90614ESF-BCA-000-TU"
+    },
+    {
+     "code": "C17494459",
+     "mpn": "MLX90614ESF-ABA-000-TU"
     }
    ],
    "lifecycle": "normal"
@@ -2969,6 +4055,55 @@
    "lifecycle": "normal"
   },
   {
+   "code": "C910544",
+   "mpn": "MAX98357AETE+T",
+   "brand": "MAXIM",
+   "package": "TQFN-16-EP(3x3)",
+   "desc": "2.4mA 2.5V~5.5V 3.2Wx1@4Ω Class D TQFN-16-EP(3x3) Audio Amplifiers RoHS",
+   "category": "Amplifiers/Comparators",
+   "subcategory": "Audio Amplifiers",
+   "stock": 31014,
+   "price": {
+    "q1_usd": 1.3215,
+    "ladder": [
+     {
+      "q": 1,
+      "usd": 1.3215
+     },
+     {
+      "q": 10,
+      "usd": 1.1546
+     },
+     {
+      "q": 30,
+      "usd": 0.9977
+     },
+     {
+      "q": 100,
+      "usd": 0.8821
+     }
+    ]
+   },
+   "params": {
+    "Quiescent Current": "2.4mA",
+    "Voltage - Supply": "2.5V~5.5V",
+    "Features": "Filterless architecture;Automatic mute/no-noise switch;Enable/shutdown function",
+    "Total Harmonic Distortion + Noise (THD+N)": "0.06%",
+    "Operating Temperature": "-40℃~+85℃",
+    "Number of Inputs": "-",
+    "Signal-to-Noise Ratio": "-",
+    "Speaker Channels": "-",
+    "Efficiency": "92%",
+    "Output Power": "3.2Wx1@4Ω",
+    "Class": "Class D",
+    "Power Supply Rejection Ratio (PSRR)": "77dB"
+   },
+   "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9dd365a93d191d8d6f09766b0e3ea172.pdf?productCode=C910544",
+   "image": "assets/img/C910544.jpg",
+   "alternates": [],
+   "lifecycle": "normal"
+  },
+  {
    "code": "C92401",
    "mpn": "MPU-6000",
    "brand": "TDK InvenSense",
@@ -3329,6 +4464,54 @@
        "fetched_at": "2026-11-09T13:08:10"
       },
       {
+       "code": "C473012",
+       "mpn": "ESP32-WROOM-32D-N4",
+       "brand": "ESPRESSIF",
+       "package": "SMD,25.5x18mm",
+       "desc": "2.4GHz ESP32-DOWD On-board PCB Antenna -98dBm SMD,25.5x18mm RF Transceiver Modules and Modems RoHS",
+       "category": "IoT/Communication Modules",
+       "subcategory": "RF Transceiver Modules and Modems",
+       "stock": 21184,
+       "price": {
+        "q1_usd": 3.9727,
+        "ladder": [
+         {
+          "q": 1,
+          "usd": 3.9727
+         },
+         {
+          "q": 10,
+          "usd": 3.4716
+         },
+         {
+          "q": 30,
+          "usd": 3.2153
+         },
+         {
+          "q": 100,
+          "usd": 2.8729
+         }
+        ]
+       },
+       "params": {
+        "Frequency Range": "2.4GHz",
+        "Voltage - Supply": "2.7V~3.6V",
+        "Utilized IC / Part": "ESP32-DOWD",
+        "Output Power": "20.5dBm",
+        "Antenna Type": "On-board PCB Antenna",
+        "Sensitivity": "-98dBm",
+        "Wireless Standard": "Bluetooth4.2",
+        "Interface": "UART;SPI;I2C;GPIO",
+        "Operating Temperature": "-40℃~+85℃"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b5aa77912f414ccb9a53d803181beb97.pdf?productCode=C473012",
+       "image": "assets/img/C473012.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230108_Espressif-Systems-ESP32-WROOM-32D-N4_C473012_front.jpg",
+       "alternates": [],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:20:10"
+      },
+      {
        "code": "C2980305",
        "mpn": "ESP32-MINI-1-N4",
        "brand": "ESPRESSIF",
@@ -3377,63 +4560,6 @@
        "alternates": [],
        "lifecycle": "normal",
        "fetched_at": "2026-11-09T13:08:04"
-      },
-      {
-       "code": "C509405",
-       "mpn": "NRF52832-CIAA-R",
-       "brand": "NORDIC",
-       "package": "WLCSP-50(3x3.2)",
-       "desc": "IC RF TXRX Bluetooth 2400MHz~2483.5MHz WLCSP-50(3x3.2)",
-       "category": "RF and Wireless",
-       "subcategory": "RF Transceiver ICs",
-       "stock": 17905,
-       "price": {
-        "q1_usd": 4.7599,
-        "ladder": [
-         {
-          "q": 1,
-          "usd": 4.7599
-         },
-         {
-          "q": 10,
-          "usd": 3.9864
-         },
-         {
-          "q": 30,
-          "usd": 3.5996
-         },
-         {
-          "q": 100,
-          "usd": 3.216
-         }
-        ]
-       },
-       "params": {
-        "Sensitivity": "-96dBm",
-        "Applications": "Bluetooth",
-        "Frequency Range": "2.4GHz~2.4835GHz",
-        "Receive  Current": "5.4mA",
-        "Interface Type": "I2S;SPI;UART",
-        "Current Of Transmitting": "5.3mA",
-        "Data Rate": "2Mbps",
-        "Typical Application Frequency": "2.4GHz",
-        "Output Power": "4dBm",
-        "Operating Temperature": "-40℃~+85℃",
-        "Voltage - Supply": "1.7V~3.6V",
-        "Features": "Supports RSSI function;CRC check function",
-        "Type": "transceiver"
-       },
-       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/ea62d5bd65694c4e6a2207dd71206ed8.pdf?productCode=C509405",
-       "image": "assets/img/C509405.jpg",
-       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230221_Nordic-Semicon-NRF52832-CIAA-R_C509405_front.jpg",
-       "alternates": [
-        {
-         "code": "C3606951",
-         "mpn": "NRF52832-CIAA-G-R7"
-        }
-       ],
-       "lifecycle": "normal",
-       "fetched_at": "2026-11-09T13:07:52"
       }
      ]
     },
@@ -4340,6 +5466,54 @@
        "fetched_at": "2026-11-09T13:08:01"
       },
       {
+       "code": "C473012",
+       "mpn": "ESP32-WROOM-32D-N4",
+       "brand": "ESPRESSIF",
+       "package": "SMD,25.5x18mm",
+       "desc": "2.4GHz ESP32-DOWD On-board PCB Antenna -98dBm SMD,25.5x18mm RF Transceiver Modules and Modems RoHS",
+       "category": "IoT/Communication Modules",
+       "subcategory": "RF Transceiver Modules and Modems",
+       "stock": 21184,
+       "price": {
+        "q1_usd": 3.9727,
+        "ladder": [
+         {
+          "q": 1,
+          "usd": 3.9727
+         },
+         {
+          "q": 10,
+          "usd": 3.4716
+         },
+         {
+          "q": 30,
+          "usd": 3.2153
+         },
+         {
+          "q": 100,
+          "usd": 2.8729
+         }
+        ]
+       },
+       "params": {
+        "Frequency Range": "2.4GHz",
+        "Voltage - Supply": "2.7V~3.6V",
+        "Utilized IC / Part": "ESP32-DOWD",
+        "Output Power": "20.5dBm",
+        "Antenna Type": "On-board PCB Antenna",
+        "Sensitivity": "-98dBm",
+        "Wireless Standard": "Bluetooth4.2",
+        "Interface": "UART;SPI;I2C;GPIO",
+        "Operating Temperature": "-40℃~+85℃"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b5aa77912f414ccb9a53d803181beb97.pdf?productCode=C473012",
+       "image": "assets/img/C473012.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230108_Espressif-Systems-ESP32-WROOM-32D-N4_C473012_front.jpg",
+       "alternates": [],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:20:10"
+      },
+      {
        "code": "C2980305",
        "mpn": "ESP32-MINI-1-N4",
        "brand": "ESPRESSIF",
@@ -4438,56 +5612,6 @@
        "alternates": [],
        "lifecycle": "normal",
        "fetched_at": "2026-11-09T12:55:41"
-      },
-      {
-       "code": "C3013943",
-       "mpn": "ESP32-S3-WROOM-1U-N4R8",
-       "brand": "ESPRESSIF",
-       "package": "SMD,19.2x18mm",
-       "desc": "2.4GHz ESP32-S3R8 -103.5dBm SMD,19.2x18mm RF Transceiver Modules and Modems RoHS",
-       "category": "IoT/Communication Modules",
-       "subcategory": "RF Transceiver Modules and Modems",
-       "stock": 116,
-       "price": {
-        "q1_usd": 5.3633,
-        "ladder": [
-         {
-          "q": 1,
-          "usd": 5.3633
-         },
-         {
-          "q": 10,
-          "usd": 4.7802
-         },
-         {
-          "q": 30,
-          "usd": 4.4334
-         },
-         {
-          "q": 100,
-          "usd": 4.1443
-         }
-        ]
-       },
-       "params": {
-        "Frequency Range": "2.4GHz",
-        "Voltage - Supply": "3V~3.6V",
-        "Utilized IC / Part": "ESP32-S3R8",
-        "Output Power": "20.5dBm",
-        "Wireless Standard": "Bluetooth5.0",
-        "Sensitivity": "-103.5dBm",
-        "Receive  Current": "95mA",
-        "Features": "Integrated Bluetooth function;Support USB interface",
-        "Interface": "GPIO;SPI;UART;I2C;I2S;USB;SDIO",
-        "Operating Temperature": "-40℃~+65℃",
-        "Current Of Transmitting": "355mA"
-       },
-       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/24a44651a4767a6582addcdaa9cab2ca.pdf?productCode=C3013943",
-       "image": "assets/img/C3013943.jpg",
-       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230128_Espressif-Systems-ESP32-S3-WROOM-1U-N4R8_C3013943_front.jpg",
-       "alternates": [],
-       "lifecycle": "normal",
-       "fetched_at": "2026-11-09T12:56:49"
       }
      ]
     },
@@ -4866,6 +5990,49 @@
        "alternates": [],
        "lifecycle": "normal",
        "fetched_at": "2026-11-09T13:08:32"
+      },
+      {
+       "code": "C50396529",
+       "mpn": "U3A",
+       "brand": "YTL",
+       "package": "-",
+       "desc": "2.06 CO5300 chip LCD, OLED, Graphic",
+       "category": "Displays",
+       "subcategory": "LCD, OLED, Graphic",
+       "stock": 3,
+       "price": {
+        "q1_usd": 14.9302,
+        "ladder": [
+         {
+          "q": 1,
+          "usd": 14.9302
+         },
+         {
+          "q": 10,
+          "usd": 14.2145
+         },
+         {
+          "q": 25,
+          "usd": 12.9759
+         },
+         {
+          "q": 100,
+          "usd": 11.8942
+         }
+        ]
+       },
+       "params": {
+        "Display Range": "33.09x40.51mm",
+        "Operating Temperature": "-20℃~+70℃",
+        "Size": "2.06",
+        "Controller Type": "CO5300 chip"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/7a9afd9d60b350c03d040c6365945911.pdf?productCode=C50396529",
+       "image": "assets/img/C50396529.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260508_YTL-U3A_C50396529_front.jpg",
+       "alternates": [],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:20:17"
       }
      ]
     },
@@ -5146,7 +6313,7 @@
       {
        "block": "藍牙／主控",
        "block_id": "mcu",
-       "code": "C2980305"
+       "code": "C473012"
       },
       {
        "block": "音訊放大",
@@ -5164,7 +6331,7 @@
        "code": "C479076"
       }
      ],
-     "total_usd": 8.55
+     "total_usd": 8.48
     },
     {
      "tag": "C",
@@ -5295,6 +6462,54 @@
        "fetched_at": "2026-11-09T12:56:46"
       },
       {
+       "code": "C473012",
+       "mpn": "ESP32-WROOM-32D-N4",
+       "brand": "ESPRESSIF",
+       "package": "SMD,25.5x18mm",
+       "desc": "2.4GHz ESP32-DOWD On-board PCB Antenna -98dBm SMD,25.5x18mm RF Transceiver Modules and Modems RoHS",
+       "category": "IoT/Communication Modules",
+       "subcategory": "RF Transceiver Modules and Modems",
+       "stock": 21184,
+       "price": {
+        "q1_usd": 3.9727,
+        "ladder": [
+         {
+          "q": 1,
+          "usd": 3.9727
+         },
+         {
+          "q": 10,
+          "usd": 3.4716
+         },
+         {
+          "q": 30,
+          "usd": 3.2153
+         },
+         {
+          "q": 100,
+          "usd": 2.8729
+         }
+        ]
+       },
+       "params": {
+        "Frequency Range": "2.4GHz",
+        "Voltage - Supply": "2.7V~3.6V",
+        "Utilized IC / Part": "ESP32-DOWD",
+        "Output Power": "20.5dBm",
+        "Antenna Type": "On-board PCB Antenna",
+        "Sensitivity": "-98dBm",
+        "Wireless Standard": "Bluetooth4.2",
+        "Interface": "UART;SPI;I2C;GPIO",
+        "Operating Temperature": "-40℃~+85℃"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b5aa77912f414ccb9a53d803181beb97.pdf?productCode=C473012",
+       "image": "assets/img/C473012.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230108_Espressif-Systems-ESP32-WROOM-32D-N4_C473012_front.jpg",
+       "alternates": [],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:20:10"
+      },
+      {
        "code": "C2980305",
        "mpn": "ESP32-MINI-1-N4",
        "brand": "ESPRESSIF",
@@ -5393,56 +6608,6 @@
        "alternates": [],
        "lifecycle": "normal",
        "fetched_at": "2026-11-09T12:55:41"
-      },
-      {
-       "code": "C3013943",
-       "mpn": "ESP32-S3-WROOM-1U-N4R8",
-       "brand": "ESPRESSIF",
-       "package": "SMD,19.2x18mm",
-       "desc": "2.4GHz ESP32-S3R8 -103.5dBm SMD,19.2x18mm RF Transceiver Modules and Modems RoHS",
-       "category": "IoT/Communication Modules",
-       "subcategory": "RF Transceiver Modules and Modems",
-       "stock": 116,
-       "price": {
-        "q1_usd": 5.3633,
-        "ladder": [
-         {
-          "q": 1,
-          "usd": 5.3633
-         },
-         {
-          "q": 10,
-          "usd": 4.7802
-         },
-         {
-          "q": 30,
-          "usd": 4.4334
-         },
-         {
-          "q": 100,
-          "usd": 4.1443
-         }
-        ]
-       },
-       "params": {
-        "Frequency Range": "2.4GHz",
-        "Voltage - Supply": "3V~3.6V",
-        "Utilized IC / Part": "ESP32-S3R8",
-        "Output Power": "20.5dBm",
-        "Wireless Standard": "Bluetooth5.0",
-        "Sensitivity": "-103.5dBm",
-        "Receive  Current": "95mA",
-        "Features": "Integrated Bluetooth function;Support USB interface",
-        "Interface": "GPIO;SPI;UART;I2C;I2S;USB;SDIO",
-        "Operating Temperature": "-40℃~+65℃",
-        "Current Of Transmitting": "355mA"
-       },
-       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/24a44651a4767a6582addcdaa9cab2ca.pdf?productCode=C3013943",
-       "image": "assets/img/C3013943.jpg",
-       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230128_Espressif-Systems-ESP32-S3-WROOM-1U-N4R8_C3013943_front.jpg",
-       "alternates": [],
-       "lifecycle": "normal",
-       "fetched_at": "2026-11-09T12:56:49"
       }
      ]
     },
@@ -5581,112 +6746,125 @@
        "fetched_at": "2026-11-09T13:07:13"
       },
       {
-       "code": "C92401",
-       "mpn": "MPU-6000",
-       "brand": "TDK InvenSense",
-       "package": "QFN-24-EP(4x4)",
-       "desc": "QFN-24-EP(4x4) Accelerometers RoHS",
+       "code": "C3659348",
+       "mpn": "MICS-5524",
+       "brand": "Amphenol",
+       "package": "SMD-10P,7x5mm",
+       "desc": "1ppm~1000ppm SMD-10P,7x5mm Gas Sensors",
        "category": "Sensors",
-       "subcategory": "Accelerometers",
-       "stock": 932,
+       "subcategory": "Gas Sensors",
+       "stock": 825,
        "price": {
-        "q1_usd": 17.9975,
+        "q1_usd": 6.4795,
         "ladder": [
          {
           "q": 1,
-          "usd": 17.9975
+          "usd": 6.4795
          },
          {
           "q": 10,
-          "usd": 17.3963
+          "usd": 5.6435
          },
          {
           "q": 30,
-          "usd": 16.354
+          "usd": 5.1344
          },
          {
           "q": 100,
-          "usd": 15.0425
+          "usd": 4.7073
          }
         ]
        },
        "params": {
-        "Accelerometer Sensing Axis": "X,Y,Z",
-        "Output Bits": "16bit",
-        "Cache Size": "1KB",
-        "Features": "Synchronization and timestamp;Motion event detection;Over-range protection function",
-        "Operating Temperature": "-40℃~+85℃",
-        "Standby Current": "5uA",
-        "Interface": "I2C;SPI",
-        "Acceleration Measurement Range (MAX)": "±16g",
-        "Voltage - Supply": "2.375V~3.46V"
+        "Measurement Range": "1ppm~1000ppm",
+        "Width": "5mm",
+        "Tolerance": "-",
+        "Diameter (φD)": "-",
+        "Length": "7mm",
+        "Type": "Carbon Monoxide;Hydrogen sulfide",
+        "Interface": "-",
+        "Working current": "32mA",
+        "Pitch": "-",
+        "Height": "1.55mm",
+        "working voltage": "4.9V~5.1V",
+        "working temperature": "-30℃~+85℃",
+        "Features": "Multi-gas detection capability"
        },
-       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/1351c404c77d4264abc1f73b0e87c434.pdf?productCode=C92401",
-       "image": null,
-       "image_remote": null,
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9c4ba30a0db4c77edc7f1d4e113d635c.pdf?productCode=C3659348",
+       "image": "assets/img/C3659348.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260902_Amphenol-MICS-5524_C3659348_front.jpg",
        "alternates": [],
        "lifecycle": "normal",
-       "fetched_at": "2026-11-09T13:07:26"
+       "fetched_at": "2026-11-09T13:20:32"
       },
       {
-       "code": "C5368700",
-       "mpn": "BMI323",
-       "brand": "Bosch",
-       "package": "LGA-14",
-       "desc": "LGA-14 IMUs (Inertial Measurement Units) RoHS",
+       "code": "C490604",
+       "mpn": "MLX90614ESF-BAA-000-TU",
+       "brand": "Melexis",
+       "package": "TO-39-4",
+       "desc": "-40℃~+85℃ SMBus ±0.5℃ TO-39-4 Analog and Digital Output RoHS",
        "category": "Sensors",
-       "subcategory": "IMUs (Inertial Measurement Units)",
-       "stock": 2942,
+       "subcategory": "Analog and Digital Output",
+       "stock": 429,
        "price": {
-        "q1_usd": 3.2718,
+        "q1_usd": 6.6946,
         "ladder": [
          {
           "q": 1,
-          "usd": 3.2718
+          "usd": 6.6946
          },
          {
           "q": 10,
-          "usd": 2.8002
+          "usd": 5.7382
          },
          {
           "q": 30,
-          "usd": 2.505
+          "usd": 5.1568
          },
          {
           "q": 100,
-          "usd": 2.2016
+          "usd": 4.6679
          }
         ]
        },
        "params": {
-        "Accelerometer Sensing Axis": "X,Y,Z",
-        "Output Bits": "16bit",
-        "Cache Size": "2KB",
-        "Acceleration Measurement Range (MAX)": "±16g"
+        "Operating Temperature": "-",
+        "Detection Temperature Range": "-40℃~+85℃",
+        "Voltage - Supply": "2.6V~3.6V",
+        "Interface": "SMBus",
+        "Tolerance": "±0.5℃",
+        "Standby Current": "6uA",
+        "Temperature Conversion Time": "-",
+        "Features": "Factory temperature calibration;Temperature threshold monitoring;Low-power standby;On-chip digital filtering/averaging;Configurable temperature output;On-chip non-volatile parameter storage",
+        "Temperature Resolution": "10bit"
        },
-       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/ff79948038995216d66cbdb81c4944d1.pdf?productCode=C5368700",
-       "image": "assets/img/C5368700.jpg",
-       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230720_Bosch-Sensortec-BMI323_C5368700_front.jpg",
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/230960c0dd0aa5d3d5e39a4a3476cad7.pdf?productCode=C490604",
+       "image": "assets/img/C490604.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20240615_Melexis-MLX90614ESF-BAA-000-TU_C490604_front.jpg",
        "alternates": [
         {
-         "code": "C38673635",
-         "mpn": "ICM-45605"
+         "code": "C49253793",
+         "mpn": "GD60914MAE"
         },
         {
-         "code": "C3021082",
-         "mpn": "QMI8658A"
+         "code": "C93959",
+         "mpn": "MLX90615SSG-DAA-000-TU"
         },
         {
-         "code": "C41398783",
-         "mpn": "BMI325"
+         "code": "C3663116",
+         "mpn": "MLX90614ESF-DCC-000-TU"
         },
         {
-         "code": "C30724128",
-         "mpn": "IIM-42653"
+         "code": "C488402",
+         "mpn": "MLX90614ESF-DAA-000-SP"
+        },
+        {
+         "code": "C3663467",
+         "mpn": "MLX90614ESF-AAA-000-TU"
         }
        ],
        "lifecycle": "normal",
-       "fetched_at": "2026-11-09T13:07:25"
+       "fetched_at": "2026-11-09T13:19:04"
       }
      ]
     },
@@ -5844,6 +7022,49 @@
        "alternates": [],
        "lifecycle": "normal",
        "fetched_at": "2026-11-09T13:08:32"
+      },
+      {
+       "code": "C50396529",
+       "mpn": "U3A",
+       "brand": "YTL",
+       "package": "-",
+       "desc": "2.06 CO5300 chip LCD, OLED, Graphic",
+       "category": "Displays",
+       "subcategory": "LCD, OLED, Graphic",
+       "stock": 3,
+       "price": {
+        "q1_usd": 14.9302,
+        "ladder": [
+         {
+          "q": 1,
+          "usd": 14.9302
+         },
+         {
+          "q": 10,
+          "usd": 14.2145
+         },
+         {
+          "q": 25,
+          "usd": 12.9759
+         },
+         {
+          "q": 100,
+          "usd": 11.8942
+         }
+        ]
+       },
+       "params": {
+        "Display Range": "33.09x40.51mm",
+        "Operating Temperature": "-20℃~+70℃",
+        "Size": "2.06",
+        "Controller Type": "CO5300 chip"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/7a9afd9d60b350c03d040c6365945911.pdf?productCode=C50396529",
+       "image": "assets/img/C50396529.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260508_YTL-U3A_C50396529_front.jpg",
+       "alternates": [],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:20:17"
       }
      ]
     },
@@ -6124,7 +7345,7 @@
       {
        "block": "主控",
        "block_id": "mcu",
-       "code": "C2980305"
+       "code": "C473012"
       },
       {
        "block": "溫濕度感測",
@@ -6142,7 +7363,7 @@
        "code": "C479076"
       }
      ],
-     "total_usd": 10.24
+     "total_usd": 10.17
     },
     {
      "tag": "C",
@@ -6274,6 +7495,54 @@
        "fetched_at": "2026-11-09T13:08:01"
       },
       {
+       "code": "C473012",
+       "mpn": "ESP32-WROOM-32D-N4",
+       "brand": "ESPRESSIF",
+       "package": "SMD,25.5x18mm",
+       "desc": "2.4GHz ESP32-DOWD On-board PCB Antenna -98dBm SMD,25.5x18mm RF Transceiver Modules and Modems RoHS",
+       "category": "IoT/Communication Modules",
+       "subcategory": "RF Transceiver Modules and Modems",
+       "stock": 21184,
+       "price": {
+        "q1_usd": 3.9727,
+        "ladder": [
+         {
+          "q": 1,
+          "usd": 3.9727
+         },
+         {
+          "q": 10,
+          "usd": 3.4716
+         },
+         {
+          "q": 30,
+          "usd": 3.2153
+         },
+         {
+          "q": 100,
+          "usd": 2.8729
+         }
+        ]
+       },
+       "params": {
+        "Frequency Range": "2.4GHz",
+        "Voltage - Supply": "2.7V~3.6V",
+        "Utilized IC / Part": "ESP32-DOWD",
+        "Output Power": "20.5dBm",
+        "Antenna Type": "On-board PCB Antenna",
+        "Sensitivity": "-98dBm",
+        "Wireless Standard": "Bluetooth4.2",
+        "Interface": "UART;SPI;I2C;GPIO",
+        "Operating Temperature": "-40℃~+85℃"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b5aa77912f414ccb9a53d803181beb97.pdf?productCode=C473012",
+       "image": "assets/img/C473012.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230108_Espressif-Systems-ESP32-WROOM-32D-N4_C473012_front.jpg",
+       "alternates": [],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:20:10"
+      },
+      {
        "code": "C2980305",
        "mpn": "ESP32-MINI-1-N4",
        "brand": "ESPRESSIF",
@@ -6372,56 +7641,6 @@
        "alternates": [],
        "lifecycle": "normal",
        "fetched_at": "2026-11-09T12:55:41"
-      },
-      {
-       "code": "C3013943",
-       "mpn": "ESP32-S3-WROOM-1U-N4R8",
-       "brand": "ESPRESSIF",
-       "package": "SMD,19.2x18mm",
-       "desc": "2.4GHz ESP32-S3R8 -103.5dBm SMD,19.2x18mm RF Transceiver Modules and Modems RoHS",
-       "category": "IoT/Communication Modules",
-       "subcategory": "RF Transceiver Modules and Modems",
-       "stock": 116,
-       "price": {
-        "q1_usd": 5.3633,
-        "ladder": [
-         {
-          "q": 1,
-          "usd": 5.3633
-         },
-         {
-          "q": 10,
-          "usd": 4.7802
-         },
-         {
-          "q": 30,
-          "usd": 4.4334
-         },
-         {
-          "q": 100,
-          "usd": 4.1443
-         }
-        ]
-       },
-       "params": {
-        "Frequency Range": "2.4GHz",
-        "Voltage - Supply": "3V~3.6V",
-        "Utilized IC / Part": "ESP32-S3R8",
-        "Output Power": "20.5dBm",
-        "Wireless Standard": "Bluetooth5.0",
-        "Sensitivity": "-103.5dBm",
-        "Receive  Current": "95mA",
-        "Features": "Integrated Bluetooth function;Support USB interface",
-        "Interface": "GPIO;SPI;UART;I2C;I2S;USB;SDIO",
-        "Operating Temperature": "-40℃~+65℃",
-        "Current Of Transmitting": "355mA"
-       },
-       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/24a44651a4767a6582addcdaa9cab2ca.pdf?productCode=C3013943",
-       "image": "assets/img/C3013943.jpg",
-       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230128_Espressif-Systems-ESP32-S3-WROOM-1U-N4R8_C3013943_front.jpg",
-       "alternates": [],
-       "lifecycle": "normal",
-       "fetched_at": "2026-11-09T12:56:49"
       }
      ]
     },
@@ -6934,7 +8153,7 @@
       {
        "block": "主控（BLE）",
        "block_id": "mcu",
-       "code": "C2980305"
+       "code": "C473012"
       },
       {
        "block": "IMU",
@@ -6947,7 +8166,7 @@
        "code": "C479076"
       }
      ],
-     "total_usd": 7.41
+     "total_usd": 7.34
     },
     {
      "tag": "C",
@@ -7372,6 +8591,49 @@
        "alternates": [],
        "lifecycle": "normal",
        "fetched_at": "2026-11-09T13:06:37"
+      },
+      {
+       "code": "C50396529",
+       "mpn": "U3A",
+       "brand": "YTL",
+       "package": "-",
+       "desc": "2.06 CO5300 chip LCD, OLED, Graphic",
+       "category": "Displays",
+       "subcategory": "LCD, OLED, Graphic",
+       "stock": 3,
+       "price": {
+        "q1_usd": 14.9302,
+        "ladder": [
+         {
+          "q": 1,
+          "usd": 14.9302
+         },
+         {
+          "q": 10,
+          "usd": 14.2145
+         },
+         {
+          "q": 25,
+          "usd": 12.9759
+         },
+         {
+          "q": 100,
+          "usd": 11.8942
+         }
+        ]
+       },
+       "params": {
+        "Display Range": "33.09x40.51mm",
+        "Operating Temperature": "-20℃~+70℃",
+        "Size": "2.06",
+        "Controller Type": "CO5300 chip"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/7a9afd9d60b350c03d040c6365945911.pdf?productCode=C50396529",
+       "image": "assets/img/C50396529.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260508_YTL-U3A_C50396529_front.jpg",
+       "alternates": [],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:20:17"
       }
      ]
     },
@@ -8510,136 +9772,203 @@
        "fetched_at": "2026-11-09T12:56:11"
       },
       {
-       "code": "C5137476",
-       "mpn": "FCC0805X106K160FT",
-       "brand": "FOJAN",
-       "package": "0805",
-       "desc": "10uF ±10% 16V Ceramic Capacitor X5R 0805",
+       "code": "C318573",
+       "mpn": "CL05A105MQ5NNNC",
+       "brand": "Samsung Electro-Mechanics",
+       "package": "0402",
+       "desc": "1uF ±20% 6.3V Ceramic Capacitor X5R 0402",
        "category": "Capacitors",
        "subcategory": "Ceramic Capacitors",
-       "stock": 368980,
+       "stock": 204400,
        "price": {
-        "q1_usd": 0.0483,
+        "q1_usd": 0.0078,
         "ladder": [
-         {
-          "q": 10,
-          "usd": 0.0483
-         },
          {
           "q": 100,
-          "usd": 0.0393
-         },
-         {
-          "q": 300,
-          "usd": 0.0348
-         },
-         {
-          "q": 3000,
-          "usd": 0.0286
-         }
-        ]
-       },
-       "params": {
-        "Capacitance": "10uF",
-        "Temperature Coefficient": "X5R",
-        "Tolerance": "±10%",
-        "Operating Temperature": "-55℃~+85℃",
-        "Voltage Rating": "16V"
-       },
-       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/96dc633700d86f8cae045018479f71b7.pdf?productCode=C5137476",
-       "image": "assets/img/C5137476.jpg",
-       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230127_FOJAN-FCC0805X106K160FT_C5137476_front.jpg",
-       "alternates": [
-        {
-         "code": "C46635915",
-         "mpn": "FCC0805X106K500FT"
-        },
-        {
-         "code": "C49010152",
-         "mpn": "FCC0805X106K350FT"
-        },
-        {
-         "code": "C5137488",
-         "mpn": "FCC0805X106K250FT"
-        },
-        {
-         "code": "C54800083",
-         "mpn": "FCC0805X106K250FT2"
-        },
-        {
-         "code": "C54619706",
-         "mpn": "FCC0805X106M160FT"
-        }
-       ],
-       "lifecycle": "normal",
-       "fetched_at": "2026-11-09T12:56:08"
-      },
-      {
-       "code": "C207840",
-       "mpn": "SLO0630H4R7MTT",
-       "brand": "Sunltech",
-       "package": "SMD,7.1x6.6mm",
-       "desc": "5.5A 4.7uH ±20% 9A 38mΩ Magnetic Shielded Inductor SMD,7.1x6.6mm Fixed Inductors",
-       "category": "Inductors, Coils, Chokes",
-       "subcategory": "Fixed Inductors",
-       "stock": 18820,
-       "price": {
-        "q1_usd": 0.1088,
-        "ladder": [
-         {
-          "q": 5,
-          "usd": 0.1088
-         },
-         {
-          "q": 50,
-          "usd": 0.0884
-         },
-         {
-          "q": 150,
-          "usd": 0.0781
+          "usd": 0.0078
          },
          {
           "q": 1000,
-          "usd": 0.0696
+          "usd": 0.0065
+         },
+         {
+          "q": 3000,
+          "usd": 0.0057
+         },
+         {
+          "q": 10000,
+          "usd": 0.0051
          }
         ]
        },
        "params": {
-        "Current Rating": "5.5A",
-        "Inductance": "4.7uH",
+        "Capacitance": "1uF",
+        "Temperature Coefficient": "X5R",
         "Tolerance": "±20%",
-        "Current - Saturation(Isat)": "9A",
-        "DC Resistance(DCR)": "38mΩ",
-        "Type": "Magnetic Shielded Inductor",
-        "Application Grade": "Consumer grade"
+        "Voltage Rating": "6.3V"
        },
-       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9ac97c60d27ef2c324581a611c9ca69b.pdf?productCode=C207840",
-       "image": "assets/img/C207840.jpg",
-       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230110_Sunltech-Tech-SLO0630H4R7MTT_C207840_front.jpg",
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/18f74fbefc0ae9639e6115a01c368b42.pdf?productCode=C318573",
+       "image": "assets/img/C318573.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20240318_Samsung-Electro-Mechanics-CL05A105MQ5NNNC_C318573_front.jpg",
        "alternates": [
         {
-         "code": "C55539811",
-         "mpn": "SLO0730T4R7MTT"
+         "code": "C106253",
+         "mpn": "CC0402KRX5R5BB105"
         },
         {
-         "code": "C22440808",
-         "mpn": "SLB1360P4R7MST"
+         "code": "C2649511",
+         "mpn": "C0402C105K9PACTU"
         },
         {
-         "code": "C55014121",
-         "mpn": "SLO1080H4R7MTT"
+         "code": "C106254",
+         "mpn": "CC0402KRX5R6BB105"
         },
         {
-         "code": "C55539816",
-         "mpn": "SLO0840T4R7MTT"
+         "code": "C2182404",
+         "mpn": "C0402C105K8PACTU"
         },
         {
-         "code": "C55111589",
-         "mpn": "SLA1009H4R7MTT"
+         "code": "C20416436",
+         "mpn": "TCC0402X5R105M6R3ATN"
         }
        ],
        "lifecycle": "normal",
-       "fetched_at": "2026-11-09T12:56:06"
+       "fetched_at": "2026-11-09T13:19:17"
+      },
+      {
+       "code": "C2833295",
+       "mpn": "01EC1119",
+       "brand": "KNSCHA",
+       "package": "Through Hole,D5xL11mm",
+       "desc": "47uF 35V Aluminum Electrolytic Capacitors Through Hole,D5xL11mm 7000hrs@105℃",
+       "category": "Capacitors",
+       "subcategory": "Aluminum Electrolytic Capacitors",
+       "stock": 19800,
+       "price": {
+        "q1_usd": 0.0168,
+        "ladder": [
+         {
+          "q": 50,
+          "usd": 0.0168
+         },
+         {
+          "q": 500,
+          "usd": 0.0136
+         },
+         {
+          "q": 2000,
+          "usd": 0.0109
+         },
+         {
+          "q": 5000,
+          "usd": 0.0098
+         }
+        ]
+       },
+       "params": {
+        "Tolerance": "±20%",
+        "Voltage Rating": "35V",
+        "Lifetime": "2000hrs@105℃",
+        "Capacitance": "47uF",
+        "Ripple Current": "135mA@100kHz",
+        "Pin Spacing": "2mm",
+        "Polarity type": "Polarized",
+        "Operating Temperature": "-40℃~+105℃",
+        "Equivalent Series Resistance(ESR)": "100mΩ@100kHz",
+        "Height - Seated (Max)": "11mm",
+        "Diameter": "5mm"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/a0aedc9932cd841794603f06f07031ac.pdf?productCode=C2833295",
+       "image": "assets/img/C2833295.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230128_KNSCHA-01EC1119_C2833295_front.jpg",
+       "alternates": [
+        {
+         "code": "C49309232",
+         "mpn": "DHG035M476C110S1AA"
+        },
+        {
+         "code": "C2831773",
+         "mpn": "03EC0571"
+        },
+        {
+         "code": "C46550695",
+         "mpn": "DHC050M476E114S1AA"
+        },
+        {
+         "code": "C46550716",
+         "mpn": "DHG035M476E110S1AA"
+        },
+        {
+         "code": "C2760864",
+         "mpn": "03EC0340"
+        }
+       ],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:18:53"
+      },
+      {
+       "code": "C159801",
+       "mpn": "CL10A226MQ8NRNE",
+       "brand": "Samsung Electro-Mechanics",
+       "package": "0603",
+       "desc": "22uF ±20% 6.3V Ceramic Capacitor X5R 0603",
+       "category": "Capacitors",
+       "subcategory": "Ceramic Capacitors",
+       "stock": 3000000,
+       "price": {
+        "q1_usd": 0.0335,
+        "ladder": [
+         {
+          "q": 20,
+          "usd": 0.0335
+         },
+         {
+          "q": 200,
+          "usd": 0.0251
+         },
+         {
+          "q": 600,
+          "usd": 0.0213
+         },
+         {
+          "q": 3000,
+          "usd": 0.0145
+         }
+        ]
+       },
+       "params": {
+        "Capacitance": "22uF",
+        "Temperature Coefficient": "X5R",
+        "Tolerance": "±20%",
+        "Voltage Rating": "6.3V"
+       },
+       "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C159801",
+       "image": "assets/img/C159801.jpg",
+       "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20240318_Samsung-Electro-Mechanics-CL10A226MQ8NRNE_C159801_front.jpg",
+       "alternates": [
+        {
+         "code": "C86295",
+         "mpn": "CL10A226MP8NUNE"
+        },
+        {
+         "code": "C109448",
+         "mpn": "CC0603MRX5R5BB226"
+        },
+        {
+         "code": "C126628",
+         "mpn": "GRT188R60J226ME13D"
+        },
+        {
+         "code": "C2167532",
+         "mpn": "C1608X5R0J226M080AC"
+        },
+        {
+         "code": "C22402131",
+         "mpn": "C0603C226M9PACTU"
+        }
+       ],
+       "lifecycle": "normal",
+       "fetched_at": "2026-11-09T13:19:14"
       }
      ]
     }
@@ -8686,10 +10015,10 @@
       {
        "block": "被動件",
        "block_id": "passive",
-       "code": "C5137476"
+       "code": "C318573"
       }
      ],
-     "total_usd": 0.45
+     "total_usd": 0.4
     },
     {
      "tag": "C",
@@ -8715,6 +10044,1658 @@
      "total_usd": 0.2
     }
    ]
+  }
+ ],
+ "projects": [
+  {
+   "id": "minimac-speaker",
+   "name": "miniMac 藍牙音響",
+   "emoji": "🖥️",
+   "domain": "home",
+   "kind": "藍牙音響",
+   "desc": "迷你麥金塔造型藍牙音響。ESP32 經典藍牙 A2DP → I2S 數位放大 → 2.8\" 螢幕顯示 + 18650 續航。",
+   "repo": "https://github.com/tsaitepiao-alt/minimac-speaker",
+   "bom_total": "NT$1,603",
+   "notes": "重點：ESP32-C3/S3 沒有經典藍牙 A2DP，播音樂要用 ESP32 舊款或加藍牙音訊模組。",
+   "items": [
+    {
+     "label": "主控（需經典藍牙 A2DP）",
+     "qty": 1,
+     "part": {
+      "code": "C473012",
+      "mpn": "ESP32-WROOM-32D-N4",
+      "brand": "ESPRESSIF",
+      "package": "SMD,25.5x18mm",
+      "desc": "2.4GHz ESP32-DOWD On-board PCB Antenna -98dBm SMD,25.5x18mm RF Transceiver Modules and Modems RoHS",
+      "category": "IoT/Communication Modules",
+      "subcategory": "RF Transceiver Modules and Modems",
+      "stock": 21184,
+      "price": {
+       "q1_usd": 3.9727,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 3.9727
+        },
+        {
+         "q": 10,
+         "usd": 3.4716
+        },
+        {
+         "q": 30,
+         "usd": 3.2153
+        },
+        {
+         "q": 100,
+         "usd": 2.8729
+        }
+       ]
+      },
+      "params": {
+       "Frequency Range": "2.4GHz",
+       "Voltage - Supply": "2.7V~3.6V",
+       "Utilized IC / Part": "ESP32-DOWD",
+       "Output Power": "20.5dBm",
+       "Antenna Type": "On-board PCB Antenna",
+       "Sensitivity": "-98dBm",
+       "Wireless Standard": "Bluetooth4.2",
+       "Interface": "UART;SPI;I2C;GPIO",
+       "Operating Temperature": "-40℃~+85℃"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b5aa77912f414ccb9a53d803181beb97.pdf?productCode=C473012",
+      "image": "assets/img/C473012.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230108_Espressif-Systems-ESP32-WROOM-32D-N4_C473012_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:20:10"
+     }
+    },
+    {
+     "label": "I2S 數位擴大",
+     "qty": 1,
+     "part": {
+      "code": "C2682619",
+      "mpn": "MAX98357AEWL+T",
+      "brand": "MAXIM",
+      "package": "BGA-9(1.3x1.3)",
+      "desc": "3.35mA 2.5V~5.5V Class D BGA-9(1.3x1.3) Audio Amplifiers RoHS",
+      "category": "Amplifiers/Comparators",
+      "subcategory": "Audio Amplifiers",
+      "stock": 8613,
+      "price": {
+       "q1_usd": 0.6017,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 0.6017
+        },
+        {
+         "q": 10,
+         "usd": 0.4912
+        },
+        {
+         "q": 30,
+         "usd": 0.4451
+        },
+        {
+         "q": 100,
+         "usd": 0.3857
+        }
+       ]
+      },
+      "params": {
+       "Quiescent Current": "3.35mA",
+       "Voltage - Supply": "2.5V~5.5V",
+       "Features": "Filterless architecture;Analog voltage gain;Enable/shutdown function;Automatic mute/no-noise switch;Automatic power-saving mode",
+       "Total Harmonic Distortion + Noise (THD+N)": "0.015%",
+       "Operating Temperature": "-40℃~+85℃",
+       "Number of Inputs": "-",
+       "Signal-to-Noise Ratio": "-",
+       "Speaker Channels": "1-Channel;2-Channel",
+       "Efficiency": "92%",
+       "Output Power": "3.2W×1@4Ω;1.8W×1@8Ω;0.93W×1@8Ω",
+       "Class": "Class D",
+       "Power Supply Rejection Ratio (PSRR)": "77dB"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/3cff28061d99b54dec095a30644fe6b2.pdf?productCode=C2682619",
+      "image": "assets/img/C2682619.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260904_MAXIM-MAX98357AEWL-T_C2682619_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:06:05"
+     }
+    },
+    {
+     "label": "螢幕 2.8\" 320×240",
+     "qty": 1,
+     "part": {
+      "code": "C19632786",
+      "mpn": "HS32B01A",
+      "brand": "HS",
+      "package": "-",
+      "desc": "3.2 320x240 ST7789 SPI LCD, OLED, Graphic",
+      "category": "Displays",
+      "subcategory": "LCD, OLED, Graphic",
+      "stock": 20,
+      "price": {
+       "q1_usd": 8.8813,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 8.8813
+        },
+        {
+         "q": 10,
+         "usd": 7.6304
+        },
+        {
+         "q": 30,
+         "usd": 6.8687
+        },
+        {
+         "q": 100,
+         "usd": 6.2301
+        }
+       ]
+      },
+      "params": {
+       "Display Range": "49.4x65.5mm",
+       "Voltage - Supply": "2.7V~3.3V",
+       "Operating Temperature": "-20℃~+70℃",
+       "Size": "3.2",
+       "Dot Pixels": "320x240",
+       "Viewing Direction": "12 o'clock",
+       "Controller Type": "ST7789",
+       "Interface": "SPI"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/798806118a92f0706b77a84ff597984b.pdf?productCode=C19632786",
+      "image": "assets/img/C19632786.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20231229_HS-HS32B01A_C19632786_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:08:32"
+     }
+    },
+    {
+     "label": "電源管理（充電+升壓）",
+     "qty": 1,
+     "part": {
+      "code": "C181692",
+      "mpn": "IP5306",
+      "brand": "INJOINIC",
+      "package": "ESOP-8",
+      "desc": "I2C Lithium Battery 2.1A ESOP-8 Battery Management RoHS",
+      "category": "Power Management (PMIC)",
+      "subcategory": "Battery Management",
+      "stock": 23475,
+      "price": {
+       "q1_usd": 0.3481,
+       "ladder": [
+        {
+         "q": 5,
+         "usd": 0.3481
+        },
+        {
+         "q": 50,
+         "usd": 0.2823
+        },
+        {
+         "q": 150,
+         "usd": 0.2502
+        },
+        {
+         "q": 500,
+         "usd": 0.2216
+        }
+       ]
+      },
+      "params": {
+       "Operating Temperature": "0℃~+70℃",
+       "Interface": "I2C",
+       "Quiescent Current": "100uA",
+       "0V Battery Charge": "Not supported",
+       "Type of Battery": "Lithium Battery",
+       "Operating Voltage": "4.65V~5.5V",
+       "Features": "Constant current charging;Trickle charging;Automatic recharge;Charge termination;Overcharge protection;Over-discharge protection;Overcurrent Protection;Short-Circuit  Protection;Overvoltage Protection;Under-voltage lockout",
+       "The Chip Type": "Charging IC;Protection IC",
+       "Balance Current": "-",
+       "Charge Current - Max": "2.1A"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/309666add984eaea02a8f06d99102496.pdf?productCode=C181692",
+      "image": "assets/img/C181692.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20180914_INJOINIC-IP5306_C181692_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:20:07"
+     }
+    },
+    {
+     "label": "旋轉編碼器（音量/選曲）",
+     "qty": 1,
+     "part": {
+      "code": "C2831776",
+      "mpn": "01EC1188",
+      "brand": "KNSCHA",
+      "package": "Through Hole,D8xL12mm",
+      "desc": "100uF 50V Aluminum Electrolytic Capacitors Through Hole,D8xL12mm 8000hrs@105℃",
+      "category": "Capacitors",
+      "subcategory": "Aluminum Electrolytic Capacitors",
+      "stock": 1860,
+      "price": {
+       "q1_usd": 0.0452,
+       "ladder": [
+        {
+         "q": 20,
+         "usd": 0.0452
+        },
+        {
+         "q": 200,
+         "usd": 0.0366
+        },
+        {
+         "q": 500,
+         "usd": 0.0261
+        },
+        {
+         "q": 2000,
+         "usd": 0.0232
+        }
+       ]
+      },
+      "params": {
+       "Tolerance": "±20%",
+       "Voltage Rating": "50V",
+       "Lifetime": "5000hrs@105℃",
+       "Capacitance": "100uF",
+       "Ripple Current": "555mA@100kHz",
+       "Pin Spacing": "3.5mm",
+       "Polarity type": "Polarized",
+       "Operating Temperature": "-40℃~+105℃",
+       "Equivalent Series Resistance(ESR)": "170mΩ@100kHz",
+       "Height - Seated (Max)": "12mm",
+       "Diameter": "8mm"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/3c8e9e157af1183c8257befa452b533e.pdf?productCode=C2831776",
+      "image": "assets/img/C2831776.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230127_KNSCHA-01EC1188_C2831776_front.jpg",
+      "alternates": [
+       {
+        "code": "C46550803",
+        "mpn": "DHG050M107G120S1AA"
+       },
+       {
+        "code": "C46550761",
+        "mpn": "DHG063M107G122S1AA"
+       },
+       {
+        "code": "C46550804",
+        "mpn": "DHG063M107G120S1AA"
+       },
+       {
+        "code": "C2831769",
+        "mpn": "03EC0315"
+       },
+       {
+        "code": "C46550782",
+        "mpn": "DHC050M107G124S1AA"
+       }
+      ],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:18:56"
+     }
+    }
+   ],
+   "missing": [],
+   "resolved": 5,
+   "expected": 5
+  },
+  {
+   "id": "kitchen-guard",
+   "name": "廚房守衛",
+   "emoji": "🔥",
+   "domain": "home",
+   "kind": "居家安全",
+   "desc": "瓦斯／油溫／煙霧三重偵測，超標就切繼電器並警報。與廚房教練共用測溫與氣體料件。",
+   "repo": "https://github.com/tsaitepiao-alt/kitchen-guard",
+   "bom_total": "NT$940",
+   "notes": "瓦斯電磁閥必須由合格技術士施工，不列入本機 BOM；沒有它繼電器只是會喀噠響。",
+   "items": [
+    {
+     "label": "紅外測溫 MLX90614",
+     "qty": 1,
+     "part": {
+      "code": "C17444569",
+      "mpn": "MLX90614ESF-DCI-000-TU",
+      "brand": "Melexis",
+      "package": "TO-39",
+      "desc": "-40℃~+85℃ SMBus ±0.2℃ TO-39 Analog and Digital Output RoHS",
+      "category": "Sensors",
+      "subcategory": "Analog and Digital Output",
+      "stock": 575,
+      "price": {
+       "q1_usd": 24.0958,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 24.0958
+        },
+        {
+         "q": 10,
+         "usd": 23.0519
+        },
+        {
+         "q": 47,
+         "usd": 21.2416
+        },
+        {
+         "q": 94,
+         "usd": 19.6625
+        }
+       ]
+      },
+      "params": {
+       "Detection Temperature Range": "-40℃~+85℃",
+       "Voltage - Supply": "2.6V~3.6V",
+       "Interface": "SMBus",
+       "Tolerance": "±0.2℃",
+       "Features": "Factory temperature calibration;Low-power standby;On-chip digital filtering/averaging;On-chip non-volatile parameter storage;Configurable temperature output"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/81c5c8848dbb789f42234019cd3cd3d6.pdf?productCode=C17444569",
+      "image": "assets/img/C17444569.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20240518_Melexis-MLX90614ESF-DCI-000-TU_C17444569_front.jpg",
+      "alternates": [
+       {
+        "code": "C49253795",
+        "mpn": "GD60914MCE"
+       },
+       {
+        "code": "C7501763",
+        "mpn": "MLX90614ESF-BCC-000-TU"
+       },
+       {
+        "code": "C17266420",
+        "mpn": "MLX90614ESF-DCA-000-TU"
+       },
+       {
+        "code": "C17210933",
+        "mpn": "MLX90614ESF-ABA-000-SP"
+       },
+       {
+        "code": "C17293916",
+        "mpn": "MLX90614ESF-BCA-000-TU"
+       }
+      ],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:19:02"
+     }
+    },
+    {
+     "label": "氣體感測（MICS-5524 替代 MQ-2）",
+     "qty": 1,
+     "part": {
+      "code": "C3659348",
+      "mpn": "MICS-5524",
+      "brand": "Amphenol",
+      "package": "SMD-10P,7x5mm",
+      "desc": "1ppm~1000ppm SMD-10P,7x5mm Gas Sensors",
+      "category": "Sensors",
+      "subcategory": "Gas Sensors",
+      "stock": 825,
+      "price": {
+       "q1_usd": 6.4795,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 6.4795
+        },
+        {
+         "q": 10,
+         "usd": 5.6435
+        },
+        {
+         "q": 30,
+         "usd": 5.1344
+        },
+        {
+         "q": 100,
+         "usd": 4.7073
+        }
+       ]
+      },
+      "params": {
+       "Measurement Range": "1ppm~1000ppm",
+       "Width": "5mm",
+       "Tolerance": "-",
+       "Diameter (φD)": "-",
+       "Length": "7mm",
+       "Type": "Carbon Monoxide;Hydrogen sulfide",
+       "Interface": "-",
+       "Working current": "32mA",
+       "Pitch": "-",
+       "Height": "1.55mm",
+       "working voltage": "4.9V~5.1V",
+       "working temperature": "-30℃~+85℃",
+       "Features": "Multi-gas detection capability"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9c4ba30a0db4c77edc7f1d4e113d635c.pdf?productCode=C3659348",
+      "image": "assets/img/C3659348.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260902_Amphenol-MICS-5524_C3659348_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:20:32"
+     }
+    },
+    {
+     "label": "OLED 0.96\"（CH1115 驅動）",
+     "qty": 1,
+     "part": {
+      "code": "C19632786",
+      "mpn": "HS32B01A",
+      "brand": "HS",
+      "package": "-",
+      "desc": "3.2 320x240 ST7789 SPI LCD, OLED, Graphic",
+      "category": "Displays",
+      "subcategory": "LCD, OLED, Graphic",
+      "stock": 20,
+      "price": {
+       "q1_usd": 8.8813,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 8.8813
+        },
+        {
+         "q": 10,
+         "usd": 7.6304
+        },
+        {
+         "q": 30,
+         "usd": 6.8687
+        },
+        {
+         "q": 100,
+         "usd": 6.2301
+        }
+       ]
+      },
+      "params": {
+       "Display Range": "49.4x65.5mm",
+       "Voltage - Supply": "2.7V~3.3V",
+       "Operating Temperature": "-20℃~+70℃",
+       "Size": "3.2",
+       "Dot Pixels": "320x240",
+       "Viewing Direction": "12 o'clock",
+       "Controller Type": "ST7789",
+       "Interface": "SPI"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/798806118a92f0706b77a84ff597984b.pdf?productCode=C19632786",
+      "image": "assets/img/C19632786.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20231229_HS-HS32B01A_C19632786_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:08:32"
+     }
+    },
+    {
+     "label": "繼電器（乾接點）",
+     "qty": 1,
+     "part": {
+      "code": "C128021",
+      "mpn": "G5V-2-H1 DC12",
+      "brand": "OMRON",
+      "package": "DIP,20.5x10.1mm",
+      "desc": "12V 1A Two sets of changeover: 2C (DPDT) DIP,20.5x10.1mm Signal Relays, Up to 2 Amps RoHS",
+      "category": "Relays",
+      "subcategory": "Signal Relays, Up to 2 Amps",
+      "stock": 11130,
+      "price": {
+       "q1_usd": 1.7531,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 1.7531
+        },
+        {
+         "q": 10,
+         "usd": 1.5046
+        },
+        {
+         "q": 25,
+         "usd": 1.307
+        },
+        {
+         "q": 100,
+         "usd": 1.1523
+        }
+       ]
+      },
+      "params": {
+       "Coil Type": "-",
+       "Coil Resistance": "960Ω",
+       "Coil Voltage": "12V",
+       "Release Time": "3ms",
+       "Operate Time": "7ms",
+       "Number of Pins": "-",
+       "Operating Temperature": "-25℃~+70℃",
+       "Width": "10.1mm",
+       "Contact Resistance": "100mΩ",
+       "Length": "20.5mm",
+       "Height": "11.5mm",
+       "Contact Rating": "600mA@125VAC;600mA@110VDC;1A@24VDC",
+       "Switching Voltage(Max)": "125V@AC;125V@DC",
+       "Switching Current(Max)": "1A",
+       "Contact Form": "Two sets of changeover: 2C (DPDT)",
+       "Coil Rated Power": "150mW",
+       "Contact Material": "Silver + Gold Plated"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/797d1a488071144ea2bca2eb0f89dd1a.pdf?productCode=C128021",
+      "image": "assets/img/C128021.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20250922_OMRON-G5V-2-H1-DC12_C128021_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:20:40"
+     }
+    }
+   ],
+   "missing": [
+    {
+     "label": "主控 ESP32-C3",
+     "qty": 1,
+     "find": "ESP32-C3"
+    }
+   ],
+   "resolved": 4,
+   "expected": 5
+  },
+  {
+   "id": "kitchen-coach",
+   "name": "廚房教練",
+   "emoji": "👩‍🍳",
+   "domain": "home",
+   "kind": "居家助理",
+   "desc": "離線語音烹飪教練：雙麥克風陣列 + I2S 放大 + 2.0\" 大字步驟 + 燈環進度。B 版加測溫與氣體做安全。",
+   "repo": "https://github.com/tsaitepiao-alt/kitchen-coach",
+   "bom_total": "NT$1,715（打樣）",
+   "notes": "N4R2 塞不下離線語音＋UI，一定要 N16R8。這條紅線寫在 BOM 第一行。",
+   "items": [
+    {
+     "label": "主控 ESP32-S3 N16R8",
+     "qty": 1,
+     "part": {
+      "code": "C3013942",
+      "mpn": "ESP32-S3-WROOM-1U-N4R2",
+      "brand": "ESPRESSIF",
+      "package": "SMD,19.2x18mm",
+      "desc": "2.4GHz ESP32-S3 IPEX interface -103.5dBm SMD,19.2x18mm RF Transceiver Modules and Modems RoHS",
+      "category": "IoT/Communication Modules",
+      "subcategory": "RF Transceiver Modules and Modems",
+      "stock": 1066,
+      "price": {
+       "q1_usd": 4.7901,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 4.7901
+        },
+        {
+         "q": 10,
+         "usd": 4.2764
+        },
+        {
+         "q": 30,
+         "usd": 3.9709
+        },
+        {
+         "q": 100,
+         "usd": 3.7181
+        }
+       ]
+      },
+      "params": {
+       "Frequency Range": "2.4GHz",
+       "Voltage - Supply": "3V~3.6V",
+       "Utilized IC / Part": "ESP32-S3",
+       "Output Power": "20.5dBm",
+       "Antenna Type": "IPEX interface",
+       "Wireless Standard": "Bluetooth5.0",
+       "Sensitivity": "-103.5dBm",
+       "Receive  Current": "95mA",
+       "Interface": "I2C;I2S;SPI;UART;USB",
+       "Operating Temperature": "-40℃~+85℃",
+       "Current Of Transmitting": "355mA"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/24a44651a4767a6582addcdaa9cab2ca.pdf?productCode=C3013942",
+      "image": "assets/img/C3013942.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230128_Espressif-Systems-ESP32-S3-WROOM-1U-N4R2_C3013942_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T12:55:41"
+     }
+    },
+    {
+     "label": "麥克風（類比 MEMS；INMP441 I2S 版待建檔）",
+     "qty": 2,
+     "part": {
+      "code": "C5142167",
+      "mpn": "GMA3526H10-B38-4P",
+      "brand": "INGHAi",
+      "package": "SMD",
+      "desc": "Omnidirectional -38dB 400Ω 65dB SMD Microphones RoHS",
+      "category": "Audio Products / Vibration Motors",
+      "subcategory": "Microphones",
+      "stock": 182,
+      "price": {
+       "q1_usd": 0.5831,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 0.5831
+        },
+        {
+         "q": 10,
+         "usd": 0.4698
+        },
+        {
+         "q": 30,
+         "usd": 0.4123
+        },
+        {
+         "q": 100,
+         "usd": 0.3565
+        }
+       ]
+      },
+      "params": {
+       "Voltage - Supply": "1.5V~3.6V",
+       "Width": "2.65mm",
+       "Current Consumption": "145uA~185uA",
+       "Direction": "Omnidirectional",
+       "Length": "3.5mm",
+       "Frequency Range": "-",
+       "Sensitivity": "-38dB",
+       "Height": "0.98mm",
+       "Output Impedance": "400Ω",
+       "S/N Ratio": "65dB",
+       "Operating Temperature": "-40℃~+100℃"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/33366caa355cab73ca9f50990788b49c.pdf?productCode=C5142167",
+      "image": null,
+      "image_remote": null,
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:08:24"
+     }
+    },
+    {
+     "label": "I2S 放大 MAX98357A",
+     "qty": 1,
+     "part": {
+      "code": "C2682619",
+      "mpn": "MAX98357AEWL+T",
+      "brand": "MAXIM",
+      "package": "BGA-9(1.3x1.3)",
+      "desc": "3.35mA 2.5V~5.5V Class D BGA-9(1.3x1.3) Audio Amplifiers RoHS",
+      "category": "Amplifiers/Comparators",
+      "subcategory": "Audio Amplifiers",
+      "stock": 8613,
+      "price": {
+       "q1_usd": 0.6017,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 0.6017
+        },
+        {
+         "q": 10,
+         "usd": 0.4912
+        },
+        {
+         "q": 30,
+         "usd": 0.4451
+        },
+        {
+         "q": 100,
+         "usd": 0.3857
+        }
+       ]
+      },
+      "params": {
+       "Quiescent Current": "3.35mA",
+       "Voltage - Supply": "2.5V~5.5V",
+       "Features": "Filterless architecture;Analog voltage gain;Enable/shutdown function;Automatic mute/no-noise switch;Automatic power-saving mode",
+       "Total Harmonic Distortion + Noise (THD+N)": "0.015%",
+       "Operating Temperature": "-40℃~+85℃",
+       "Number of Inputs": "-",
+       "Signal-to-Noise Ratio": "-",
+       "Speaker Channels": "1-Channel;2-Channel",
+       "Efficiency": "92%",
+       "Output Power": "3.2W×1@4Ω;1.8W×1@8Ω;0.93W×1@8Ω",
+       "Class": "Class D",
+       "Power Supply Rejection Ratio (PSRR)": "77dB"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/3cff28061d99b54dec095a30644fe6b2.pdf?productCode=C2682619",
+      "image": "assets/img/C2682619.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260904_MAXIM-MAX98357AEWL-T_C2682619_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:06:05"
+     }
+    },
+    {
+     "label": "螢幕 2.0\" 320×240",
+     "qty": 1,
+     "part": {
+      "code": "C19632786",
+      "mpn": "HS32B01A",
+      "brand": "HS",
+      "package": "-",
+      "desc": "3.2 320x240 ST7789 SPI LCD, OLED, Graphic",
+      "category": "Displays",
+      "subcategory": "LCD, OLED, Graphic",
+      "stock": 20,
+      "price": {
+       "q1_usd": 8.8813,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 8.8813
+        },
+        {
+         "q": 10,
+         "usd": 7.6304
+        },
+        {
+         "q": 30,
+         "usd": 6.8687
+        },
+        {
+         "q": 100,
+         "usd": 6.2301
+        }
+       ]
+      },
+      "params": {
+       "Display Range": "49.4x65.5mm",
+       "Voltage - Supply": "2.7V~3.3V",
+       "Operating Temperature": "-20℃~+70℃",
+       "Size": "3.2",
+       "Dot Pixels": "320x240",
+       "Viewing Direction": "12 o'clock",
+       "Controller Type": "ST7789",
+       "Interface": "SPI"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/798806118a92f0706b77a84ff597984b.pdf?productCode=C19632786",
+      "image": "assets/img/C19632786.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20231229_HS-HS32B01A_C19632786_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:08:32"
+     }
+    },
+    {
+     "label": "燈環 WS2812B",
+     "qty": 12,
+     "part": {
+      "code": "C4154882",
+      "mpn": "WS2812B-XF02/W",
+      "brand": "Worldsemi",
+      "package": "SMD5050-4P",
+      "desc": "SMD5050-4P LED Addressable, Specialty",
+      "category": "Optoelectronics",
+      "subcategory": "LED Addressable, Specialty",
+      "stock": 6880,
+      "price": {
+       "q1_usd": 0.0794,
+       "ladder": [
+        {
+         "q": 10,
+         "usd": 0.0794
+        },
+        {
+         "q": 100,
+         "usd": 0.0622
+        },
+        {
+         "q": 300,
+         "usd": 0.0536
+        },
+        {
+         "q": 1000,
+         "usd": 0.0471
+        }
+       ]
+      },
+      "params": {
+       "Luminous Intensity - R": "350mcd",
+       "Luminous Intensity - G": "1050mcd",
+       "Luminous Intensity - B": "110mcd",
+       "Data Transmission Rate": "800Kbit/s",
+       "Dominant Wavelength - R": "620nm~625nm",
+       "Dominant Wavelength - G": "518nm~523nm",
+       "Dominant Wavelength - B": "450nm~455nm",
+       "Peak Wavelength - R": "-",
+       "Peak Wavelength - G": "-",
+       "Fixed-Frequency Pwm Mode": "2kHz",
+       "Operating Temperature": "-",
+       "Lamp Holder Type": "-",
+       "Features": "Built-in power-on reset circuit;Built-in power-on reset circuit",
+       "Length": "5mm",
+       "ESD Withstand Voltage": "-",
+       "Height": "1.57mm",
+       "Installation method": "-",
+       "Width": "5mm",
+       "Lens Color": "-",
+       "Pitch": "-",
+       "Viewing Angle": "-",
+       "Peak Wavelength - B": "-"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/4280e9f1402264e24b64c0990f945030.pdf?productCode=C4154882",
+      "image": "assets/img/C4154882.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230123_Worldsemi-WS2812B-XF02-W_C4154882_front.jpg",
+      "alternates": [
+       {
+        "code": "C2920042",
+        "mpn": "WS2812E-V5"
+       },
+       {
+        "code": "C4154881",
+        "mpn": "WS2812B-XF01/W"
+       },
+       {
+        "code": "C42417498",
+        "mpn": "WS2812"
+       },
+       {
+        "code": "C114588",
+        "mpn": "WS2812C-B"
+       },
+       {
+        "code": "C52941391",
+        "mpn": "WS2812B-B-V6"
+       }
+      ],
+      "lifecycle": "sold_out",
+      "fetched_at": "2026-11-09T12:55:56"
+     }
+    }
+   ],
+   "missing": [],
+   "resolved": 5,
+   "expected": 5
+  },
+  {
+   "id": "holo-cube",
+   "name": "懸浮 3D 顯示桌飾",
+   "emoji": "🧊",
+   "domain": "home",
+   "kind": "顯示桌飾",
+   "desc": "Pepper's ghost 立方體：面板平放朝上 + 45° 半反射片，影像浮在壓克力中央。已完成 Rev A 全套設計包。",
+   "repo": "https://github.com/tsaitepiao-alt/parts-catalog",
+   "bom_total": "US$6.19",
+   "notes": "WS2812 是 5V 元件，DIN 門檻 3.5V，3.3V GPIO 直推會時好時壞。",
+   "items": [
+    {
+     "label": "主控 ESP32-S3",
+     "qty": 1,
+     "part": {
+      "code": "C3013942",
+      "mpn": "ESP32-S3-WROOM-1U-N4R2",
+      "brand": "ESPRESSIF",
+      "package": "SMD,19.2x18mm",
+      "desc": "2.4GHz ESP32-S3 IPEX interface -103.5dBm SMD,19.2x18mm RF Transceiver Modules and Modems RoHS",
+      "category": "IoT/Communication Modules",
+      "subcategory": "RF Transceiver Modules and Modems",
+      "stock": 1066,
+      "price": {
+       "q1_usd": 4.7901,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 4.7901
+        },
+        {
+         "q": 10,
+         "usd": 4.2764
+        },
+        {
+         "q": 30,
+         "usd": 3.9709
+        },
+        {
+         "q": 100,
+         "usd": 3.7181
+        }
+       ]
+      },
+      "params": {
+       "Frequency Range": "2.4GHz",
+       "Voltage - Supply": "3V~3.6V",
+       "Utilized IC / Part": "ESP32-S3",
+       "Output Power": "20.5dBm",
+       "Antenna Type": "IPEX interface",
+       "Wireless Standard": "Bluetooth5.0",
+       "Sensitivity": "-103.5dBm",
+       "Receive  Current": "95mA",
+       "Interface": "I2C;I2S;SPI;UART;USB",
+       "Operating Temperature": "-40℃~+85℃",
+       "Current Of Transmitting": "355mA"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/24a44651a4767a6582addcdaa9cab2ca.pdf?productCode=C3013942",
+      "image": "assets/img/C3013942.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230128_Espressif-Systems-ESP32-S3-WROOM-1U-N4R2_C3013942_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T12:55:41"
+     }
+    },
+    {
+     "label": "降壓 5V→3.3V",
+     "qty": 1,
+     "part": {
+      "code": "C49208507",
+      "mpn": "MSTPS563201DDCR",
+      "brand": "MSKSEMI",
+      "package": "SOT-23-6",
+      "desc": "Step-down type 600kHz Adjustable 3A 800mV~6V SOT-23-6 Voltage Regulators - DC DC Switching Regulators",
+      "category": "Power Management (PMIC)",
+      "subcategory": "Voltage Regulators - DC DC Switching Regulators",
+      "stock": 3700,
+      "price": {
+       "q1_usd": 0.111,
+       "ladder": [
+        {
+         "q": 5,
+         "usd": 0.111
+        },
+        {
+         "q": 50,
+         "usd": 0.0882
+        },
+        {
+         "q": 150,
+         "usd": 0.0768
+        },
+        {
+         "q": 500,
+         "usd": 0.0682
+        }
+       ]
+      },
+      "params": {
+       "Operating Temperature": "-40℃~+85℃",
+       "Number of Outputs": "1",
+       "Function": "Step-down type",
+       "Frequency - Switching": "600kHz",
+       "Features": "Cycle-by-cycle current limiting;Hiccup current limiting;Light load efficient mode;Overcurrent Protection",
+       "Output Type": "Adjustable",
+       "Topology": "Buck",
+       "Operating Voltage": "4V~16V",
+       "Switch tube (built-in/external)": "Built-in",
+       "Output Current": "3A",
+       "Output Voltage": "800mV~6V",
+       "Quiescent Current": "600uA"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/4f1486779ec10430dc7819c6e668b3c4.pdf?productCode=C49208507",
+      "image": "assets/img/C49208507.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260309_MSKSEMI-MSTPS563201DDCR_C49208507_front.jpg",
+      "alternates": [
+       {
+        "code": "C49208508",
+        "mpn": "MSTPS563200DDCR"
+       }
+      ],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T12:55:43"
+     }
+    },
+    {
+     "label": "USB-C 16P",
+     "qty": 1,
+     "part": {
+      "code": "C668624",
+      "mpn": "TYPE-C 16P(073)",
+      "brand": "SHOU HAN",
+      "package": "SMD",
+      "desc": "USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount, Right Angle",
+      "category": "Connectors",
+      "subcategory": "USB, DVI, HDMI Connector Assemblies",
+      "stock": 46535,
+      "price": {
+       "q1_usd": 0.0981,
+       "ladder": [
+        {
+         "q": 5,
+         "usd": 0.0981
+        },
+        {
+         "q": 50,
+         "usd": 0.0766
+        },
+        {
+         "q": 150,
+         "usd": 0.0659
+        },
+        {
+         "q": 1000,
+         "usd": 0.0584
+        }
+       ]
+      },
+      "params": {
+       "Protocol Standard": "USB 3.1",
+       "Number of Ports": "1",
+       "Supplementary Features": "-",
+       "Number of Contacts": "16P",
+       "Connector Type": "Type-C",
+       "Center Height": "-",
+       "Voltage Rating": "5V",
+       "Operating Temperature": "-25℃~+85℃",
+       "Length": "7.35mm",
+       "Mounting Type": "Surface Mount, Right Angle",
+       "Gender": "Female"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9dda4aa5d404a8a801b6605bcb304a5c.pdf?productCode=C668624",
+      "image": "assets/img/C668624.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230202_SHOU-HAN-TYPE-C-16P-073_C668624_front.jpg",
+      "alternates": [
+       {
+        "code": "C2965608",
+        "mpn": "TYPE-C16P3MDDGP073"
+       },
+       {
+        "code": "C7507405",
+        "mpn": "TYPE-C-3.1-16PIN"
+       },
+       {
+        "code": "C5156603",
+        "mpn": "TYPE-C 16PQT 073"
+       },
+       {
+        "code": "C3020043",
+        "mpn": "TYPE-C 16PFS 4J-H7.05 IPX6"
+       },
+       {
+        "code": "C22383468",
+        "mpn": "SH-U262-161N-4BVC11"
+       }
+      ],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T12:55:44"
+     }
+    },
+    {
+     "label": "背光 PWM MOSFET",
+     "qty": 1,
+     "part": {
+      "code": "C53261042",
+      "mpn": "AO3400",
+      "brand": "GREENMICRO",
+      "package": "SOT-23",
+      "desc": "350mW 30V 6A 40mΩ@4.5V 1 N-channel N-Channel SOT-23 Single FETs, MOSFETs",
+      "category": "Transistors/Thyristors",
+      "subcategory": "Single FETs, MOSFETs",
+      "stock": 29620,
+      "price": {
+       "q1_usd": 0.0253,
+       "ladder": [
+        {
+         "q": 20,
+         "usd": 0.0253
+        },
+        {
+         "q": 200,
+         "usd": 0.02
+        },
+        {
+         "q": 600,
+         "usd": 0.017
+        },
+        {
+         "q": 3000,
+         "usd": 0.0152
+        }
+       ]
+      },
+      "params": {
+       "Output Capacitance(Coss)": "99pF",
+       "Ciss-Input Capacitance": "1.05nF",
+       "Pd - Power Dissipation": "350mW",
+       "Configuration": "-",
+       "Drain to Source Voltage": "30V",
+       "Operating Temperature": "-55℃~+150℃",
+       "Current - Continuous Drain(Id)": "6A",
+       "Reverse Transfer Capacitance (Crss)": "77pF",
+       "RDS(on)": "40mΩ@4.5V",
+       "Number": "1 N-channel",
+       "Gate Charge(Qg)": "9.7nC@4.5V",
+       "Vgs": "-",
+       "Gate Threshold Voltage (Vgs(th))": "1.1V",
+       "Type": "N-Channel"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/bb36c7b50ab16b456c3c0670814ab7c8.pdf?productCode=C53261042",
+      "image": "assets/img/C53261042.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20260311_GREENMICRO-AO3400_C53261042_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T12:55:48"
+     }
+    },
+    {
+     "label": "5V RGB 燈效",
+     "qty": 2,
+     "part": {
+      "code": "C4154882",
+      "mpn": "WS2812B-XF02/W",
+      "brand": "Worldsemi",
+      "package": "SMD5050-4P",
+      "desc": "SMD5050-4P LED Addressable, Specialty",
+      "category": "Optoelectronics",
+      "subcategory": "LED Addressable, Specialty",
+      "stock": 6880,
+      "price": {
+       "q1_usd": 0.0794,
+       "ladder": [
+        {
+         "q": 10,
+         "usd": 0.0794
+        },
+        {
+         "q": 100,
+         "usd": 0.0622
+        },
+        {
+         "q": 300,
+         "usd": 0.0536
+        },
+        {
+         "q": 1000,
+         "usd": 0.0471
+        }
+       ]
+      },
+      "params": {
+       "Luminous Intensity - R": "350mcd",
+       "Luminous Intensity - G": "1050mcd",
+       "Luminous Intensity - B": "110mcd",
+       "Data Transmission Rate": "800Kbit/s",
+       "Dominant Wavelength - R": "620nm~625nm",
+       "Dominant Wavelength - G": "518nm~523nm",
+       "Dominant Wavelength - B": "450nm~455nm",
+       "Peak Wavelength - R": "-",
+       "Peak Wavelength - G": "-",
+       "Fixed-Frequency Pwm Mode": "2kHz",
+       "Operating Temperature": "-",
+       "Lamp Holder Type": "-",
+       "Features": "Built-in power-on reset circuit;Built-in power-on reset circuit",
+       "Length": "5mm",
+       "ESD Withstand Voltage": "-",
+       "Height": "1.57mm",
+       "Installation method": "-",
+       "Width": "5mm",
+       "Lens Color": "-",
+       "Pitch": "-",
+       "Viewing Angle": "-",
+       "Peak Wavelength - B": "-"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/4280e9f1402264e24b64c0990f945030.pdf?productCode=C4154882",
+      "image": "assets/img/C4154882.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230123_Worldsemi-WS2812B-XF02-W_C4154882_front.jpg",
+      "alternates": [
+       {
+        "code": "C2920042",
+        "mpn": "WS2812E-V5"
+       },
+       {
+        "code": "C4154881",
+        "mpn": "WS2812B-XF01/W"
+       },
+       {
+        "code": "C42417498",
+        "mpn": "WS2812"
+       },
+       {
+        "code": "C114588",
+        "mpn": "WS2812C-B"
+       },
+       {
+        "code": "C52941391",
+        "mpn": "WS2812B-B-V6"
+       }
+      ],
+      "lifecycle": "sold_out",
+      "fetched_at": "2026-11-09T12:55:56"
+     }
+    },
+    {
+     "label": "3.3V→5V 位準轉換",
+     "qty": 1,
+     "part": {
+      "code": "C53114384",
+      "mpn": "74AHCT1G125GW,125-JSM",
+      "brand": "JSMSEMI",
+      "package": "SOT-353",
+      "desc": "TTL Compatible CMOS 4.5V~5.5V 1 1 4.8ns@5V,50pF SOT-353 Buffers, Drivers, Receivers, Transceivers RoHS",
+      "category": "Logic",
+      "subcategory": "Buffers, Drivers, Receivers, Transceivers",
+      "stock": 845,
+      "price": {
+       "q1_usd": 0.0813,
+       "ladder": [
+        {
+         "q": 5,
+         "usd": 0.0813
+        },
+        {
+         "q": 50,
+         "usd": 0.0647
+        },
+        {
+         "q": 150,
+         "usd": 0.0565
+        },
+        {
+         "q": 500,
+         "usd": 0.0503
+        }
+       ]
+      },
+      "params": {
+       "Function": "Output enable",
+       "Input type": "TTL Compatible CMOS",
+       "Current - Output High(IOH)": "25mA",
+       "Voltage - Supply": "4.5V~5.5V",
+       "Series": "74AHCT",
+       "Output Type": "Tri-State",
+       "Current - Output Low(IOL)": "25mA",
+       "Number of Bits per Element": "1",
+       "Channel Type": "Unidirectional",
+       "Number of Elements": "1",
+       "Operating Temperature": "-40℃~+125℃",
+       "Quiescent Supply Current": "40uA",
+       "Propagation Delay": "4.8ns@5V,50pF"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/76d2bc85238928115c19433b70d4237c.pdf?productCode=C53114384",
+      "image": "assets/img/C53114384.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20251230_JSMSEMI-74AHCT1G125GW-125-JSM_C53114384_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T12:55:54"
+     }
+    }
+   ],
+   "missing": [],
+   "resolved": 6,
+   "expected": 6
+  },
+  {
+   "id": "pawpulse-collar",
+   "name": "PawPulse 智慧頸環",
+   "emoji": "🐈",
+   "domain": "pet",
+   "kind": "寵物穿戴",
+   "desc": "一體式貓咪智慧項圈：XIAO ESP32-C3 + 0.42\" 雙貓眼 OLED + ToF 測距表情 + 300mAh 電池。",
+   "repo": "https://github.com/tsaitepiao-alt/pawpulse-pet-smart-collar",
+   "bom_total": "NT$900–1,400",
+   "notes": "電池必須含保護板；安全扣要用市售脫扣件，不能用 3D 列印。",
+   "items": [
+    {
+     "label": "OLED 0.96\"（CH1115 驅動，待換 0.42\"）",
+     "qty": 1,
+     "part": {
+      "code": "C19632786",
+      "mpn": "HS32B01A",
+      "brand": "HS",
+      "package": "-",
+      "desc": "3.2 320x240 ST7789 SPI LCD, OLED, Graphic",
+      "category": "Displays",
+      "subcategory": "LCD, OLED, Graphic",
+      "stock": 20,
+      "price": {
+       "q1_usd": 8.8813,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 8.8813
+        },
+        {
+         "q": 10,
+         "usd": 7.6304
+        },
+        {
+         "q": 30,
+         "usd": 6.8687
+        },
+        {
+         "q": 100,
+         "usd": 6.2301
+        }
+       ]
+      },
+      "params": {
+       "Display Range": "49.4x65.5mm",
+       "Voltage - Supply": "2.7V~3.3V",
+       "Operating Temperature": "-20℃~+70℃",
+       "Size": "3.2",
+       "Dot Pixels": "320x240",
+       "Viewing Direction": "12 o'clock",
+       "Controller Type": "ST7789",
+       "Interface": "SPI"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/798806118a92f0706b77a84ff597984b.pdf?productCode=C19632786",
+      "image": "assets/img/C19632786.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20231229_HS-HS32B01A_C19632786_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:08:32"
+     }
+    },
+    {
+     "label": "ToF 測距（VL53L5CX 替代 VL53L0X）",
+     "qty": 1,
+     "part": {
+      "code": "C3178303",
+      "mpn": "VL53L5CXV0GC/1",
+      "brand": "ST",
+      "package": "SMD,6.4x3mm",
+      "desc": "4m I2C SMD,6.4x3mm Distance Measuring RoHS",
+      "category": "Sensors",
+      "subcategory": "Distance Measuring",
+      "stock": 3443,
+      "price": {
+       "q1_usd": 7.2579,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 7.2579
+        },
+        {
+         "q": 10,
+         "usd": 6.2463
+        },
+        {
+         "q": 30,
+         "usd": 5.3651
+        },
+        {
+         "q": 100,
+         "usd": 4.8485
+        }
+       ]
+      },
+      "params": {
+       "Current - Supply": "-",
+       "Module": "Yes",
+       "Rotation Angle": "-",
+       "Operating Temperature": "-30℃~+85℃",
+       "Linear Range": "4m",
+       "Interface": "I2C",
+       "Voltage - Supply": "2.8V~3.3V",
+       "Length": "6.4mm",
+       "Width": "3mm",
+       "Type": "-",
+       "Height": "1.5mm",
+       "Features": "-"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/eabdf0c84b3cefeb8d7ceaa028c3fe81.pdf?productCode=C3178303",
+      "image": "assets/img/C3178303.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230105_STMicroelectronics-VL53L5CXV0GC-1_C3178303_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:19:31"
+     }
+    },
+    {
+     "label": "充電管理（IP5306 替代 TP4056、含保護）",
+     "qty": 1,
+     "part": {
+      "code": "C181692",
+      "mpn": "IP5306",
+      "brand": "INJOINIC",
+      "package": "ESOP-8",
+      "desc": "I2C Lithium Battery 2.1A ESOP-8 Battery Management RoHS",
+      "category": "Power Management (PMIC)",
+      "subcategory": "Battery Management",
+      "stock": 23475,
+      "price": {
+       "q1_usd": 0.3481,
+       "ladder": [
+        {
+         "q": 5,
+         "usd": 0.3481
+        },
+        {
+         "q": 50,
+         "usd": 0.2823
+        },
+        {
+         "q": 150,
+         "usd": 0.2502
+        },
+        {
+         "q": 500,
+         "usd": 0.2216
+        }
+       ]
+      },
+      "params": {
+       "Operating Temperature": "0℃~+70℃",
+       "Interface": "I2C",
+       "Quiescent Current": "100uA",
+       "0V Battery Charge": "Not supported",
+       "Type of Battery": "Lithium Battery",
+       "Operating Voltage": "4.65V~5.5V",
+       "Features": "Constant current charging;Trickle charging;Automatic recharge;Charge termination;Overcharge protection;Over-discharge protection;Overcurrent Protection;Short-Circuit  Protection;Overvoltage Protection;Under-voltage lockout",
+       "The Chip Type": "Charging IC;Protection IC",
+       "Balance Current": "-",
+       "Charge Current - Max": "2.1A"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/309666add984eaea02a8f06d99102496.pdf?productCode=C181692",
+      "image": "assets/img/C181692.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20180914_INJOINIC-IP5306_C181692_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:20:07"
+     }
+    }
+   ],
+   "missing": [
+    {
+     "label": "主控 XIAO ESP32-C3",
+     "qty": 1,
+     "find": "XIAO ESP32"
+    }
+   ],
+   "resolved": 3,
+   "expected": 4
+  },
+  {
+   "id": "swing-sensor",
+   "name": "棒球揮棒感測器",
+   "emoji": "🏏",
+   "domain": "sport",
+   "kind": "運動感測",
+   "desc": "用一片 XIAO nRF52840 Sense 就吃掉主控＋6 軸 IMU＋BLE＋充電，量揮棒速度與軌跡。",
+   "repo": "https://github.com/tsaitepiao-alt/3d-viewers",
+   "bom_total": "NT$1,000–1,500",
+   "notes": "第一版不畫 PCB、不做 App（先用 Telegram／網頁看數據）。",
+   "items": [
+    {
+     "label": "MCU（nRF52833；XIAO Sense 為模組、不在 LCSC 元件庫）",
+     "qty": 1,
+     "part": {
+      "code": "C3007767",
+      "mpn": "NRF52833-QDAA-R7",
+      "brand": "NORDIC",
+      "package": "QFN-40-EP(5x5)",
+      "desc": "IC RF TXRX Bluetooth ISM IoT 2400MHz~2483.5MHz QFN-40-EP(5x5)",
+      "category": "Embedded Processors & Controllers",
+      "subcategory": "RF Transceiver ICs",
+      "stock": 2414,
+      "price": {
+       "q1_usd": 4.9576,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 4.9576
+        },
+        {
+         "q": 10,
+         "usd": 4.7757
+        },
+        {
+         "q": 30,
+         "usd": 4.6682
+        },
+        {
+         "q": 100,
+         "usd": 4.5606
+        }
+       ]
+      },
+      "params": {},
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/d01dfd44b12f299bd514b7501eee5b55.pdf?productCode=C3007767",
+      "image": "assets/img/C3007767.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230122_Nordic-Semicon-NRF52833-QDAA-R7_C3007767_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:08:07"
+     }
+    },
+    {
+     "label": "鋰電 150–500mAh（含保護）",
+     "qty": 1,
+     "part": {
+      "code": "C181692",
+      "mpn": "IP5306",
+      "brand": "INJOINIC",
+      "package": "ESOP-8",
+      "desc": "I2C Lithium Battery 2.1A ESOP-8 Battery Management RoHS",
+      "category": "Power Management (PMIC)",
+      "subcategory": "Battery Management",
+      "stock": 23475,
+      "price": {
+       "q1_usd": 0.3481,
+       "ladder": [
+        {
+         "q": 5,
+         "usd": 0.3481
+        },
+        {
+         "q": 50,
+         "usd": 0.2823
+        },
+        {
+         "q": 150,
+         "usd": 0.2502
+        },
+        {
+         "q": 500,
+         "usd": 0.2216
+        }
+       ]
+      },
+      "params": {
+       "Operating Temperature": "0℃~+70℃",
+       "Interface": "I2C",
+       "Quiescent Current": "100uA",
+       "0V Battery Charge": "Not supported",
+       "Type of Battery": "Lithium Battery",
+       "Operating Voltage": "4.65V~5.5V",
+       "Features": "Constant current charging;Trickle charging;Automatic recharge;Charge termination;Overcharge protection;Over-discharge protection;Overcurrent Protection;Short-Circuit  Protection;Overvoltage Protection;Under-voltage lockout",
+       "The Chip Type": "Charging IC;Protection IC",
+       "Balance Current": "-",
+       "Charge Current - Max": "2.1A"
+      },
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/309666add984eaea02a8f06d99102496.pdf?productCode=C181692",
+      "image": "assets/img/C181692.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20180914_INJOINIC-IP5306_C181692_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:20:07"
+     }
+    }
+   ],
+   "missing": [],
+   "resolved": 2,
+   "expected": 2
+  },
+  {
+   "id": "batweight",
+   "name": "棒球加重環 IMU",
+   "emoji": "⚾",
+   "domain": "sport",
+   "kind": "運動感測",
+   "desc": "套在球棒上的加重環，內含 IMU 量揮棒。v2.1 Ø55 零凸出 178.2g。",
+   "repo": "https://github.com/tsaitepiao-alt/batweight-sensor",
+   "bom_total": "約 NT$1,200",
+   "notes": "與揮棒感測器共用韌體架構，差別在機構配重。",
+   "items": [
+    {
+     "label": "MCU（nRF52833；XIAO 為模組）",
+     "qty": 1,
+     "part": {
+      "code": "C3007767",
+      "mpn": "NRF52833-QDAA-R7",
+      "brand": "NORDIC",
+      "package": "QFN-40-EP(5x5)",
+      "desc": "IC RF TXRX Bluetooth ISM IoT 2400MHz~2483.5MHz QFN-40-EP(5x5)",
+      "category": "Embedded Processors & Controllers",
+      "subcategory": "RF Transceiver ICs",
+      "stock": 2414,
+      "price": {
+       "q1_usd": 4.9576,
+       "ladder": [
+        {
+         "q": 1,
+         "usd": 4.9576
+        },
+        {
+         "q": 10,
+         "usd": 4.7757
+        },
+        {
+         "q": 30,
+         "usd": 4.6682
+        },
+        {
+         "q": 100,
+         "usd": 4.5606
+        }
+       ]
+      },
+      "params": {},
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/d01dfd44b12f299bd514b7501eee5b55.pdf?productCode=C3007767",
+      "image": "assets/img/C3007767.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230122_Nordic-Semicon-NRF52833-QDAA-R7_C3007767_front.jpg",
+      "alternates": [],
+      "lifecycle": "normal",
+      "fetched_at": "2026-11-09T13:08:07"
+     }
+    }
+   ],
+   "missing": [],
+   "resolved": 1,
+   "expected": 1
+  }
+ ],
+ "domains": [
+  {
+   "id": "home",
+   "name": "居家",
+   "emoji": "🏠",
+   "color": "#4da3ff"
+  },
+  {
+   "id": "sport",
+   "name": "運動",
+   "emoji": "⚾",
+   "color": "#3ddc97"
+  },
+  {
+   "id": "pet",
+   "name": "寵物",
+   "emoji": "🐾",
+   "color": "#ff8a3d"
   }
  ]
 }
