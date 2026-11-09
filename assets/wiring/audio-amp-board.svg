@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620">
+<defs><clipPath id="r"><rect width="200" height="168" rx="8"/></clipPath><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4da3ff"/></marker></defs>
+<rect width="1000" height="620" fill="#0e1116"/>
+<text x="30" y="46" fill="#e8eef7" font-size="21" font-weight="700">音訊放大模組 — 組裝排線圖</text>
+<text x="30" y="72" fill="#8b98a9" font-size="13">方案 A　零件成本 ≈ US$0.2　（自動由場景需求與零件規格排出，非逐腳位原理圖）</text>
+<path d="M700,204 Q500,158 300,204" fill="none" stroke="#4da3ff" stroke-width="1.6" opacity="0.75" marker-end="url(#a)"/>
+<text x="500" y="152" fill="#9fc7ff" font-size="11.5" text-anchor="middle">VDD</text>
+<path d="M300,204 Q300,272 300,432" fill="none" stroke="#4da3ff" stroke-width="1.6" opacity="0.75" marker-end="url(#a)"/>
+<text x="300" y="266" fill="#9fc7ff" font-size="11.5" text-anchor="middle">輸入耦合 / 輸出濾波</text>
+<clipPath id="c39"><rect x="200.0" y="120.0" width="200" height="168" rx="8"/></clipPath><image href="../img/C387737.jpg" x="200.0" y="120.0" width="200" height="168" preserveAspectRatio="xMidYMid meet" clip-path="url(#c39)"/><rect x="200.0" y="120.0" width="200" height="168" fill="none" stroke="#3a4452" rx="8"/><circle cx="387.0" cy="133.0" r="11" fill="#ff8a3d"/><text x="387.0" y="137.5" text-anchor="middle" font-size="13" font-weight="700" fill="#111">1</text>
+<text x="300.0" y="308.0" fill="#e8eef7" font-size="13" text-anchor="middle" font-weight="600">放大 IC</text>
+<text x="300.0" y="326.0" fill="#8b98a9" font-size="11" text-anchor="middle">LPA2010MSF</text>
+<clipPath id="c40"><rect x="600.0" y="120.0" width="200" height="168" rx="8"/></clipPath><image href="../img/C42420805.jpg" x="600.0" y="120.0" width="200" height="168" preserveAspectRatio="xMidYMid meet" clip-path="url(#c40)"/><rect x="600.0" y="120.0" width="200" height="168" fill="none" stroke="#3a4452" rx="8"/><circle cx="787.0" cy="133.0" r="11" fill="#ff8a3d"/><text x="787.0" y="137.5" text-anchor="middle" font-size="13" font-weight="700" fill="#111">2</text>
+<text x="700.0" y="308.0" fill="#e8eef7" font-size="13" text-anchor="middle" font-weight="600">電源</text>
+<text x="700.0" y="326.0" fill="#8b98a9" font-size="11" text-anchor="middle">MT3410LB-N</text>
+<clipPath id="c41"><rect x="200.0" y="348.0" width="200" height="168" rx="8"/></clipPath><image href="../img/C327797.jpg" x="200.0" y="348.0" width="200" height="168" preserveAspectRatio="xMidYMid meet" clip-path="url(#c41)"/><rect x="200.0" y="348.0" width="200" height="168" fill="none" stroke="#3a4452" rx="8"/><circle cx="387.0" cy="361.0" r="11" fill="#ff8a3d"/><text x="387.0" y="365.5" text-anchor="middle" font-size="13" font-weight="700" fill="#111">3</text>
+<text x="300.0" y="536.0" fill="#e8eef7" font-size="13" text-anchor="middle" font-weight="600">被動件</text>
+<text x="300.0" y="554.0" fill="#8b98a9" font-size="11" text-anchor="middle">MR04X1002FTL</text>
+<text x="970" y="594" fill="#ffb42e" font-size="12" text-anchor="end">⚠ Class-D 輸出是 PWM，量測要用差動探棒；別把示波器地夾到 SPK- 上。</text>
+</svg>

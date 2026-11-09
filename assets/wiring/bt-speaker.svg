@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620">
+<defs><clipPath id="r"><rect width="200" height="168" rx="8"/></clipPath><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4da3ff"/></marker></defs>
+<rect width="1000" height="620" fill="#0e1116"/>
+<text x="30" y="46" fill="#e8eef7" font-size="21" font-weight="700">藍牙喇叭 — 組裝排線圖</text>
+<text x="30" y="72" fill="#8b98a9" font-size="13">方案 A　零件成本 ≈ US$3.12　（自動由場景需求與零件規格排出，非逐腳位原理圖）</text>
+<path d="M300,204 Q500,158 700,204" fill="none" stroke="#4da3ff" stroke-width="1.6" opacity="0.75" marker-end="url(#a)"/>
+<text x="500" y="152" fill="#9fc7ff" font-size="11.5" text-anchor="middle">I2S / 類比音訊</text>
+<path d="M700,204 Q700,272 700,432" fill="none" stroke="#4da3ff" stroke-width="1.6" opacity="0.75" marker-end="url(#a)"/>
+<text x="700" y="266" fill="#9fc7ff" font-size="11.5" text-anchor="middle">SPK+ / SPK-</text>
+<path d="M300,432 Q300,272 300,204" fill="none" stroke="#4da3ff" stroke-width="1.6" opacity="0.75" marker-end="url(#a)"/>
+<text x="300" y="266" fill="#9fc7ff" font-size="11.5" text-anchor="middle">3V3</text>
+<path d="M300,432 Q500,272 700,204" fill="none" stroke="#4da3ff" stroke-width="1.6" opacity="0.75" marker-end="url(#a)"/>
+<text x="500" y="266" fill="#9fc7ff" font-size="11.5" text-anchor="middle">5V（放大級吃大電流，不可與主…</text>
+<clipPath id="c1"><rect x="200.0" y="120.0" width="200" height="168" rx="8"/></clipPath><image href="../img/C967021.jpg" x="200.0" y="120.0" width="200" height="168" preserveAspectRatio="xMidYMid meet" clip-path="url(#c1)"/><rect x="200.0" y="120.0" width="200" height="168" fill="none" stroke="#3a4452" rx="8"/><circle cx="387.0" cy="133.0" r="11" fill="#ff8a3d"/><text x="387.0" y="137.5" text-anchor="middle" font-size="13" font-weight="700" fill="#111">1</text>
+<text x="300.0" y="308.0" fill="#e8eef7" font-size="13" text-anchor="middle" font-weight="600">藍牙／主控</text>
+<text x="300.0" y="326.0" fill="#8b98a9" font-size="11" text-anchor="middle">ESP32-D0WD-V3</text>
+<clipPath id="c2"><rect x="600.0" y="120.0" width="200" height="168" rx="8"/></clipPath><image href="../img/C387737.jpg" x="600.0" y="120.0" width="200" height="168" preserveAspectRatio="xMidYMid meet" clip-path="url(#c2)"/><rect x="600.0" y="120.0" width="200" height="168" fill="none" stroke="#3a4452" rx="8"/><circle cx="787.0" cy="133.0" r="11" fill="#ff8a3d"/><text x="787.0" y="137.5" text-anchor="middle" font-size="13" font-weight="700" fill="#111">2</text>
+<text x="700.0" y="308.0" fill="#e8eef7" font-size="13" text-anchor="middle" font-weight="600">音訊放大</text>
+<text x="700.0" y="326.0" fill="#8b98a9" font-size="11" text-anchor="middle">LPA2010MSF</text>
+<clipPath id="c3"><rect x="200.0" y="348.0" width="200" height="168" rx="8"/></clipPath><image href="../img/C42420805.jpg" x="200.0" y="348.0" width="200" height="168" preserveAspectRatio="xMidYMid meet" clip-path="url(#c3)"/><rect x="200.0" y="348.0" width="200" height="168" fill="none" stroke="#3a4452" rx="8"/><circle cx="387.0" cy="361.0" r="11" fill="#ff8a3d"/><text x="387.0" y="365.5" text-anchor="middle" font-size="13" font-weight="700" fill="#111">3</text>
+<text x="300.0" y="536.0" fill="#e8eef7" font-size="13" text-anchor="middle" font-weight="600">電源</text>
+<text x="300.0" y="554.0" fill="#8b98a9" font-size="11" text-anchor="middle">MT3410LB-N</text>
+<clipPath id="c4"><rect x="600.0" y="348.0" width="200" height="168" rx="8"/></clipPath><image href="../img/C668624.jpg" x="600.0" y="348.0" width="200" height="168" preserveAspectRatio="xMidYMid meet" clip-path="url(#c4)"/><rect x="600.0" y="348.0" width="200" height="168" fill="none" stroke="#3a4452" rx="8"/><circle cx="787.0" cy="361.0" r="11" fill="#ff8a3d"/><text x="787.0" y="365.5" text-anchor="middle" font-size="13" font-weight="700" fill="#111">4</text>
+<text x="700.0" y="536.0" fill="#e8eef7" font-size="13" text-anchor="middle" font-weight="600">連接器／端子</text>
+<text x="700.0" y="554.0" fill="#8b98a9" font-size="11" text-anchor="middle">TYPE-C 16P(073)</text>
+<text x="970" y="594" fill="#ffb42e" font-size="12" text-anchor="end">⚠ 馬達／喇叭這類大電流負載不可由板子 5V 直接拉；放大級與主控要各自去耦。</text>
+</svg>
