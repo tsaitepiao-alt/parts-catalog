@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09 13:21",
+ "generated": "2026-11-09 13:23",
  "count": 80,
  "parts": [
   {
@@ -10489,51 +10489,51 @@
      "label": "OLED 0.96\"（CH1115 驅動）",
      "qty": 1,
      "part": {
-      "code": "C19632786",
-      "mpn": "HS32B01A",
-      "brand": "HS",
+      "code": "C2890611",
+      "mpn": "N096-6428TSWMG01-H13",
+      "brand": "Wisevision",
       "package": "-",
-      "desc": "3.2 320x240 ST7789 SPI LCD, OLED, Graphic",
+      "desc": "0.96 64x128 CH1115 chip LCD, OLED, Graphic RoHS",
       "category": "Displays",
       "subcategory": "LCD, OLED, Graphic",
-      "stock": 20,
+      "stock": 13,
       "price": {
-       "q1_usd": 8.8813,
+       "q1_usd": 2.6542,
        "ladder": [
         {
          "q": 1,
-         "usd": 8.8813
+         "usd": 2.6542
         },
         {
          "q": 10,
-         "usd": 7.6304
+         "usd": 2.2581
         },
         {
-         "q": 30,
-         "usd": 6.8687
+         "q": 56,
+         "usd": 1.9311
         },
         {
-         "q": 100,
-         "usd": 6.2301
+         "q": 112,
+         "usd": 1.678
         }
        ]
       },
       "params": {
-       "Display Range": "49.4x65.5mm",
-       "Voltage - Supply": "2.7V~3.3V",
-       "Operating Temperature": "-20℃~+70℃",
-       "Size": "3.2",
-       "Dot Pixels": "320x240",
-       "Viewing Direction": "12 o'clock",
-       "Controller Type": "ST7789",
-       "Interface": "SPI"
+       "Display Range": "10.86x21.74mm",
+       "Operating Temperature": "-40℃~+85℃",
+       "Size": "0.96",
+       "Dot Pixels": "64x128",
+       "Controller Type": "CH1115 chip",
+       "Interface": "I2C;SPI",
+       "Display Color": "White",
+       "Type of Drive": "Passive (PMOLED)"
       },
-      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/798806118a92f0706b77a84ff597984b.pdf?productCode=C19632786",
-      "image": "assets/img/C19632786.jpg",
-      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20231229_HS-HS32B01A_C19632786_front.jpg",
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/863259f4f673278b265c5ead0309e99e.pdf?productCode=C2890611",
+      "image": "assets/img/C2890611.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230127_Newvisio-N096-6428TSWMG01-H13_C2890611_front.jpg",
       "alternates": [],
       "lifecycle": "normal",
-      "fetched_at": "2026-11-09T13:08:32"
+      "fetched_at": "2026-11-09T13:06:37"
      }
     },
     {
@@ -11339,54 +11339,54 @@
    "notes": "電池必須含保護板；安全扣要用市售脫扣件，不能用 3D 列印。",
    "items": [
     {
-     "label": "OLED 0.96\"（CH1115 驅動，待換 0.42\"）",
+     "label": "OLED 0.96\"（CH1115；0.42\" 版待建檔）",
      "qty": 1,
      "part": {
-      "code": "C19632786",
-      "mpn": "HS32B01A",
-      "brand": "HS",
+      "code": "C2890611",
+      "mpn": "N096-6428TSWMG01-H13",
+      "brand": "Wisevision",
       "package": "-",
-      "desc": "3.2 320x240 ST7789 SPI LCD, OLED, Graphic",
+      "desc": "0.96 64x128 CH1115 chip LCD, OLED, Graphic RoHS",
       "category": "Displays",
       "subcategory": "LCD, OLED, Graphic",
-      "stock": 20,
+      "stock": 13,
       "price": {
-       "q1_usd": 8.8813,
+       "q1_usd": 2.6542,
        "ladder": [
         {
          "q": 1,
-         "usd": 8.8813
+         "usd": 2.6542
         },
         {
          "q": 10,
-         "usd": 7.6304
+         "usd": 2.2581
         },
         {
-         "q": 30,
-         "usd": 6.8687
+         "q": 56,
+         "usd": 1.9311
         },
         {
-         "q": 100,
-         "usd": 6.2301
+         "q": 112,
+         "usd": 1.678
         }
        ]
       },
       "params": {
-       "Display Range": "49.4x65.5mm",
-       "Voltage - Supply": "2.7V~3.3V",
-       "Operating Temperature": "-20℃~+70℃",
-       "Size": "3.2",
-       "Dot Pixels": "320x240",
-       "Viewing Direction": "12 o'clock",
-       "Controller Type": "ST7789",
-       "Interface": "SPI"
+       "Display Range": "10.86x21.74mm",
+       "Operating Temperature": "-40℃~+85℃",
+       "Size": "0.96",
+       "Dot Pixels": "64x128",
+       "Controller Type": "CH1115 chip",
+       "Interface": "I2C;SPI",
+       "Display Color": "White",
+       "Type of Drive": "Passive (PMOLED)"
       },
-      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/798806118a92f0706b77a84ff597984b.pdf?productCode=C19632786",
-      "image": "assets/img/C19632786.jpg",
-      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20231229_HS-HS32B01A_C19632786_front.jpg",
+      "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/863259f4f673278b265c5ead0309e99e.pdf?productCode=C2890611",
+      "image": "assets/img/C2890611.jpg",
+      "image_remote": "https://assets.lcsc.com/images/lcsc/900x900/20230127_Newvisio-N096-6428TSWMG01-H13_C2890611_front.jpg",
       "alternates": [],
       "lifecycle": "normal",
-      "fetched_at": "2026-11-09T13:08:32"
+      "fetched_at": "2026-11-09T13:06:37"
      }
     },
     {
